@@ -253,6 +253,7 @@
                         "key": "field_33gjfnhunuxl1",
                         "label": "Items",
                         "name": "items",
+                        "aria-label": "",
                         "type": "repeater",
                         "instructions": "",
                         "required": false,
@@ -263,11 +264,18 @@
                             "id": ""
                         },
                         "message": "",
+                        "layout": "block",
+                        "min": 0,
+                        "max": 0,
+                        "rows_per_page": 20,
+                        "button_label": "Add Row",
+                        "collapsed": "",
                         "sub_fields": [
                             {
                                 "key": "field_2apmhnviuygbb",
                                 "label": "Icon",
                                 "name": "icon",
+                                "aria-label": "",
                                 "type": "textarea",
                                 "instructions": "",
                                 "required": true,
@@ -277,7 +285,13 @@
                                     "class": "",
                                     "id": ""
                                 },
-                                "message": ""
+                                "message": "",
+                                "default_value": "",
+                                "new_lines": "",
+                                "maxlength": "",
+                                "placeholder": "",
+                                "rows": "",
+                                "parent_repeater": "field_33gjfnhunuxl1"
                             },
                             {
                                 "key": "field_cfj2a8egi0gjc",
@@ -298,7 +312,8 @@
                                 "maxlength": "",
                                 "placeholder": "",
                                 "prepend": "",
-                                "append": ""
+                                "append": "",
+                                "parent_repeater": "field_33gjfnhunuxl1"
                             },
                             {
                                 "key": "field_ktjru3jyvx2fr",
@@ -319,10 +334,153 @@
                                 "new_lines": "",
                                 "maxlength": "",
                                 "placeholder": "",
-                                "rows": ""
+                                "rows": "",
+                                "parent_repeater": "field_33gjfnhunuxl1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "field_3oon05gumgu18",
+                "label": "Transporting",
+                "name": "transporting",
+                "type": "tab",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 100,
+                    "class": "",
+                    "id": ""
+                },
+                "message": "",
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_grxnh501cuzle",
+                "label": "Transporting",
+                "name": "transporting",
+                "type": "group",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 100,
+                    "class": "",
+                    "id": ""
+                },
+                "message": "",
+                "layout": "block",
+                "sub_fields": [
+                    {
+                        "key": "field_xyvbp1ofnn4ak",
+                        "label": "Title",
+                        "name": "title",
+                        "type": "text",
+                        "instructions": "",
+                        "required": true,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": 100,
+                            "class": "",
+                            "id": ""
+                        },
+                        "message": ""
+                    },
+                    {
+                        "key": "field_lfkuqr0etwfl2",
+                        "label": "Items",
+                        "name": "items",
+                        "type": "repeater",
+                        "instructions": "",
+                        "required": false,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": 100,
+                            "class": "",
+                            "id": ""
+                        },
+                        "message": "",
+                        "sub_fields": [
+                            {
+                                "key": "field_ilpkwyulqp7dl",
+                                "label": "Image",
+                                "name": "image",
+                                "type": "image",
+                                "instructions": "",
+                                "required": true,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": 20,
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "message": ""
+                            },
+                            {
+                                "key": "field_mckjokr1hawvg",
+                                "label": "Card Title",
+                                "name": "card_title",
+                                "type": "text",
+                                "instructions": "",
+                                "required": true,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": 40,
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "message": ""
+                            },
+                            {
+                                "key": "field_jwboof1y162bl",
+                                "label": "Card Subtitle",
+                                "name": "card_subtitle",
+                                "type": "text",
+                                "instructions": "",
+                                "required": true,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": 40,
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "message": ""
                             }
                         ],
                         "layout": "block"
+                    },
+                    {
+                        "key": "field_daojsjha0sis1",
+                        "label": "Button Text",
+                        "name": "button_text",
+                        "type": "text",
+                        "instructions": "",
+                        "required": true,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": 50,
+                            "class": "",
+                            "id": ""
+                        },
+                        "message": ""
+                    },
+                    {
+                        "key": "field_fsfsazp00t6ih",
+                        "label": "Button Link",
+                        "name": "button_link",
+                        "type": "text",
+                        "instructions": "",
+                        "required": true,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": 50,
+                            "class": "",
+                            "id": ""
+                        },
+                        "message": ""
                     }
                 ]
             }
