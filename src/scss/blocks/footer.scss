@@ -1,0 +1,35 @@
+.footer {
+  position: relative;
+  background: var(--color-base-blue);
+  z-index: 1;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 11.8rem;
+    background: #1d2551;
+    z-index: -10;
+    object-fit: cover;
+
+    @media screen and (max-width: 1200px) {
+      position: static;
+    }
+  }
+
+  &__wrapper {
+    display: flex;
+    margin: 0 auto;
+    max-width: 1324px;
+    gap: 5.3rem;
+    padding-inline: 1.5rem;
+
+    @media screen and (max-width: 1200px) {
+      width: auto;
+      flex-direction: column;
+      gap: 0;
+    }
+  }
+}

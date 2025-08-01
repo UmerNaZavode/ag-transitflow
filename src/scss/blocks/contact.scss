@@ -1,0 +1,138 @@
+.contact {
+  background: #091242;
+  padding-block: 14.3rem 14.9rem;
+
+  @media screen and (max-width: 768px) {
+    padding-block: 8rem 9rem;
+  }
+
+  @media screen and (max-width: 576px) {
+    padding-block: 4rem 5rem;
+  }
+
+  &__body {
+    display: flex;
+    gap: 8.8rem;
+    margin-top: 1.3rem;
+
+    @media screen and (max-width: 992px) {
+      flex-direction: column;
+      gap: 4rem;
+    }
+  }
+
+  &__info {
+    display: flex;
+    width: 46%;
+    font-size: 14px;
+    font-weight: 500;
+    color: #fff;
+    flex-direction: column;
+    line-height: 135%;
+
+    @media screen and (max-width: 992px) {
+      width: 100%;
+    }
+  }
+
+  &__title {
+    color: inherit;
+  }
+
+  &__desk {
+    color: inherit;
+    margin-top: 1rem;
+
+    @media screen and (max-width: 992px) {
+      width: 70%;
+    }
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 3.2rem;
+
+    @media screen and (max-width: 992px) {
+      display: flex;
+      max-width: auto;
+      flex-direction: row;
+      gap: 7rem;
+
+      // grid-template-columns: repeat(2, 1fr);
+      // align-items: center;
+    }
+
+    @media screen and (max-width: 768px) {
+      flex-wrap: wrap;
+      gap: 4rem;
+    }
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+    font-size: 1.4rem;
+    font-weight: 500;
+    gap: 1.4rem;
+    line-height: 135%;
+  }
+
+  &__wrapper {
+    width: 100%;
+  }
+
+  &__form {
+    // width: 100%;
+    display: grid;
+    gap: 3.1rem 2.8rem;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  &__cell {
+    width: 100%;
+
+    &--wide {
+      grid-column: -1 / 1;
+    }
+  }
+
+  &__control {
+    width: 100%;
+    padding: 2.1rem 0 2.1rem 3rem;
+    font-family: var(--font-family-third);
+    background: none;
+    border: 1px solid #4e5683;
+
+    &::placeholder {
+      font-size: 2rem;
+      font-weight: 400;
+      color: #fff;
+
+      @media screen and (max-width: 576px) {
+        font-size: 1.6rem;
+      }
+    }
+  }
+
+  textarea.contact__control {
+    height: 15.4rem;
+    resize: vertical;
+    
+    @media screen and (max-width: 576px) {
+      height: 10rem;
+    }
+  }
+
+  &__button {
+    padding: 1.9rem 3.4rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #23212a;
+    background: linear-gradient(127deg, #ffb629 0%, #ffda56 50.72%, #ffd7a6 100%);
+    border: none;
+    line-height: 135%;
+    margin-top: 3rem;
+  }
+}

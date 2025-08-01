@@ -1,0 +1,46 @@
+body {
+  font-family: var(--font-family-base);
+}
+
+.title {
+  font-family: var(--font-family-second);
+  font-size: 3.5rem;
+  font-weight: 600;
+  color: var(--color-heading);
+
+  @media screen and (max-width: 576px) {
+    font-size: 2.6rem;
+  }
+}
+
+.subtitle {
+  font-family: var(--font-family-second);
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: var(--color-heading);
+
+  @media screen and (max-width: 576px) {
+    font-size: 2rem;
+  }
+}
+
+p {
+  font-family: var(--font-family-base);
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: var(--color-paragraph);
+  line-height: 152%;
+}
+
+.visually-hidden {
+  position: absolute !important;
+  margin: -1px !important;
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  border: 0 !important;
+  overflow: hidden !important;
+  clip: rect(0 0 0 0) !important;
+  clip-path: inset(100%) !important;
+  white-space: nowrap !important;
+}

@@ -1,0 +1,47 @@
+.we-do {
+  display: flex;
+  margin-block: 9.6rem 13rem;
+
+  @media screen and (max-width: 992px) {
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+    margin-block: 7rem 11rem;
+  }
+
+  @media screen and (max-width: 576px) {
+    margin-block: 5rem 8rem;
+  }
+
+  &__title {
+    margin-top: 1.5rem;
+  }
+
+  &__list {
+    display: grid;
+    justify-content: start;
+    gap: 7rem;
+    grid-template-columns: repeat(2, 1fr);
+
+    @media screen and (max-width: 576px) {
+      grid-template-columns: 1fr;
+    }
+  }
+
+  &__item {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__info {
+    display: inline-flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    padding-left: 2.5rem;
+  }
+
+  &__icon {
+    border-right: 1px solid #d8d8d8;
+    padding-right: 2.5rem;
+  }
+}

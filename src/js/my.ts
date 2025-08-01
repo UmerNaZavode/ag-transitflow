@@ -2,11 +2,17 @@ import "../vue/vue-app.js";
 import fixedHeader from "./modules/header/fixed-header";
 import streetMap from "./modules/maps/streetMap.js";
 import { mainMenu } from "./modules/menu";
+import aboutUsTabs from './modules/aboutUsTabs';
+import headerBurger from './modules/headerBurger';
+import headerNav from './modules/headerNav';
 
 document.addEventListener("DOMContentLoaded", function () {
   mainMenu();
   fixedHeader();
   // streetMap();
+   aboutUsTabs()
+  headerBurger()
+  headerNav()
 });
 
 // function isChromeOnAppleDevice() {

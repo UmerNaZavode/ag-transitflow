@@ -1,0 +1,38 @@
+.footer-copy {
+  border-top: 1px solid #4e5683;
+  margin-top: 4.5em;
+  padding-block: 1.5rem 1.8rem;
+
+  &__container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-inline: 36.2rem 36.4rem;
+
+    @media screen and (max-width: 992px) {
+      margin-inline: 0;
+      padding-left: 4.5rem;
+    }
+  }
+
+  &__info {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 250%;
+  }
+
+  &__list {
+    display: flex;
+    font-size: 1.6rem;
+    font-weight: 400;
+    color: #8388a7;
+    gap: 3.7rem;
+    line-height: 250%;
+
+    @media screen and (max-width: 576px) {
+      flex-wrap: wrap;
+      row-gap: 1rem;
+    }
+  }
+}

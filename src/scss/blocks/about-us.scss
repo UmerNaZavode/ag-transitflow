@@ -1,0 +1,149 @@
+.about-us {
+  display: flex;
+  padding: 10.3rem 1.5rem 14.5rem;
+  gap: 14rem;
+
+  @media screen and (max-width: 1200px) {
+    gap: 10rem;
+    padding-block: 7rem;
+  }
+
+  @media screen and (max-width: 992px) {
+    align-items: center;
+    flex-direction: column-reverse;
+    gap: 5rem;
+  }
+
+  @media screen and (max-width: 576px) {
+    gap: 3rem;
+    padding-block: 4rem 6rem;
+  }
+
+  &__left {
+    @media screen and (max-width: 1400px) {
+      display: flex;
+      align-items: center;
+    }
+  }
+
+  &__wrapper {
+    position: relative;
+    max-width: 726px;
+    height: auto;
+    margin-left: 7.5rem;
+
+    @media screen and (max-width: 1400px) {
+      width: 500px;
+      margin-left: 6rem;
+    }
+
+    @media screen and (max-width: 992px) {
+      margin-left: 0;
+    }
+
+    @media screen and (max-width: 768px) {
+      width: 450px;
+    }
+
+    @media screen and (max-width: 576px) {
+      max-width: 300px;
+    }
+  }
+
+  &__img-abs {
+    position: absolute;
+    right: -4rem;
+    bottom: -4.5rem;
+    padding: 2.5rem 0 0 2.5rem;
+    background-color: #fff;
+    object-fit: cover;
+
+    @media screen and (max-width: 1200px) {
+      width: 200px;
+      height: auto;
+    }
+
+    @media screen and (max-width: 576px) {
+      right: 0;
+      width: 145px;
+      height: auto;
+    }
+  }
+
+  &__right {
+    display: flex;
+    justify-content: center;
+    max-width: 610px;
+    flex-direction: column;
+  }
+
+  &__inner {
+    margin-top: 4.8rem;
+
+    @media screen and (max-width: 992px) {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+    }
+  }
+
+  &__title {
+    margin-top: 1.5rem;
+  }
+
+  &__desk {
+    margin-top: 1.2rem;
+  }
+
+  &__tabs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1.4rem;
+    margin-top: 1.9rem;
+  }
+
+  &__tabs-desk {
+    margin-top: 2.7rem;
+  }
+
+  &__tabs-button {
+    padding: 1.5rem 3.9rem 1.6rem 3.8rem;
+    font-size: 1.9rem;
+    font-weight: 600;
+    background: #f4f4f4;
+    border: none;
+    transition: background 0.3s ease;
+    line-height: 152%;
+
+    &:hover {
+      background: #ffb82b;
+    }
+
+    &.is-active {
+      color: #fff;
+      background: #ffb82b;
+    }
+  }
+
+  &__tabs-content {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    visibility: hidden;
+
+    &--active {
+      display: block;
+      opacity: 1;
+      visibility: visible;
+    }
+  }
+
+  &__button {
+    margin-top: 3.5rem;
+
+    @media screen and (max-width: 576px) {
+      margin-top: 2rem;
+    }
+  }
+}

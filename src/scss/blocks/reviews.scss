@@ -1,0 +1,30 @@
+.reviews {
+  padding-block: 13.4rem 10rem;
+
+  &--alt {
+    background: #f4f4f4;
+  }
+
+  @media screen and (max-width: 992px) {
+    padding-block: 9rem 8rem;
+  }
+
+  @media screen and (max-width: 576px) {
+    padding-block: 6rem 5rem;
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  &__title {
+    margin-top: 1.3rem;
+  }
+
+  &__right {
+    display: flex;
+    gap: 0.95rem;
+  }
+}

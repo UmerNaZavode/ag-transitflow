@@ -1,0 +1,20 @@
+.slider-button {
+  display: flex;
+  border: none;
+
+  &__prev {
+    align-items: center;
+    width: 4.4rem;
+    height: 4.4rem;
+    background: var(--gradient-yellow);
+    border-radius: 50%;
+  }
+
+  &__next {
+    align-items: center;
+    width: 4.4rem;
+    height: 4.4rem;
+    background: var(--color-base-blue);
+    border-radius: 50%;
+  }
+}

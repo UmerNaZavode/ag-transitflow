@@ -1,0 +1,99 @@
+.footer-right {
+  display: flex;
+  gap: 14rem;
+  padding-top: 4.5rem;
+
+  @media screen and (max-width: 1200px) {
+    width: 58%;
+    gap: 20rem;
+    padding-left: 4.5rem;
+  }
+
+  @media screen and (max-width: 576px) {
+    padding-left: 0;
+    padding-top: 2.5rem;
+  }
+
+  @media screen and (max-width: 768px) {
+    display: grid;
+    width: 43%;
+    gap: 0;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media screen and (max-width: 576px) {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  &__title {
+    font-size: 2.5rem;
+    font-weight: 500;
+    color: #fff;
+  }
+
+  &__content {
+    margin-top: 7.4rem;
+
+    @media screen and (max-width: 1200px) {
+      margin-top: 5rem;
+    }
+
+    @media screen and (max-width: 576px) {
+      margin-top: 2rem;
+    }
+  }
+
+  &__list {
+    font-size: 1.6rem;
+    font-weight: 500;
+    color: #fff;
+    line-height: 250%;
+  }
+
+  &__form {
+    padding-top: 1.4rem;
+  }
+
+  &__control {
+    width: 100%;
+    padding: 1.7rem 0 1.7rem 3rem;
+    font-family: var(--font-family-third);
+    font-size: 2rem;
+    font-weight: 400;
+    background: none;
+    border: 1px solid #4e5683;
+
+    &::placeholder {
+      color: #fff;
+    }
+
+    @media screen and (max-width: 576px) {
+      width: 35rem;
+    }
+  }
+
+  &__down {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+    margin-top: 2rem;
+  }
+
+  &__button {
+    padding: 1.9rem 3.6rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: #23212a;
+    background: linear-gradient(127deg, #ffb629 0%, #ffda56 50.72%, #ffd7a6 100%);
+    border: none;
+    line-height: 135%;
+  }
+
+  &__socials-list {
+    display: flex;
+    align-items: center;
+    gap: 2.7rem;
+  }
+}

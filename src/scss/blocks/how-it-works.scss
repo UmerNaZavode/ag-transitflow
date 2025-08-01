@@ -1,0 +1,19 @@
+.how-it-works {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-block: 10rem;
+
+  &__right {
+    display: flex;
+    width: 49rem;
+    flex-direction: column;
+  }
+
+  &__text {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+    margin-top: 1.5rem;
+  }
+}
