@@ -21,7 +21,8 @@
       left: 0;
       z-index: 1;
       background-image: linear-gradient(360deg, #091242 0%, rgb(9, 18, 66, 0%) 100%);
-      inset: 0;
+
+      /* inset: 0; */
     }
 
     @media screen and (max-width: 576px) {
