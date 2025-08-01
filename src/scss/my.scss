@@ -4,7 +4,8 @@
 @use "blocks/header";
 @use "blocks/header-contacts";
 @use "blocks/header-main";
-@use "blocks/header-nav";
+/* @use "blocks/header-nav"; */
+@use "blocks/main-menu/main-menu";
 @use "blocks/header-socials";
 @use "blocks/header-burger";
 @use "blocks/header-mobile";
