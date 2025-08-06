@@ -5,13 +5,9 @@ $tag = $why_us['tag'];
 $title = $why_us['title'];
 $description = $why_us['description'];
 $items = $why_us['items'];
-// $icon = $item['icon'];
-// $subtitle = $item['subtitle'];
 $image = $why_us['image'];
 $image_absolute = $why_us['image_absolute'];
 $numbers = $why_us['numbers'];
-// $value = $item['value'];
-// $key = $item['key'];
 ?>
 <section class="why-us">
   <div class="why-us__wrapper">

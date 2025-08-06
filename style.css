@@ -13,6 +13,7 @@ Version: 0.4
 .mfp-container .mfp-arrow::before {
   background: url("assets/i/static/gallery-right-black.svg") no-repeat center;
 }
+
 .mfp-container .mfp-arrow:hover:before {
   background: url("assets/i/static/gallery-right-white.svg") no-repeat center;
 }
@@ -97,3 +98,9 @@ Version: 0.4
   font-display: swap;
 }
 
+/* .reviews-rating__star { */
+/* } */
+
+.reviews-rating__star.is-active {
+  background: url("src/icons/rating-star.svg") center/contain no-repeat;
+}

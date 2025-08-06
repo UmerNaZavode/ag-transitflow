@@ -630,6 +630,7 @@
                                 "key": "field_htnee6fu3fslp",
                                 "label": "Value",
                                 "name": "value",
+                                "aria-label": "",
                                 "type": "text",
                                 "instructions": "",
                                 "required": true,
@@ -641,12 +642,18 @@
                                 },
                                 "message": "",
                                 "ui": 0,
-                                "default_value": 0
+                                "default_value": 0,
+                                "maxlength": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "parent_repeater": "field_tujumx8oixest"
                             },
                             {
                                 "key": "field_yaccgpy8wmliu",
                                 "label": "Key",
                                 "name": "key",
+                                "aria-label": "",
                                 "type": "text",
                                 "instructions": "",
                                 "required": true,
@@ -658,7 +665,12 @@
                                 },
                                 "message": "",
                                 "ui": 0,
-                                "default_value": 0
+                                "default_value": 0,
+                                "maxlength": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "parent_repeater": "field_tujumx8oixest"
                             }
                         ]
                     }
