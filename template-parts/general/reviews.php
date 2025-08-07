@@ -4,11 +4,11 @@ $bg_color = $reviews['bg_color'];
 $tag = $reviews['tag'];
 $title = $reviews['title'];
 $items = $reviews['items'];
-// $photo = $item['photo'];
-// $name = $item['name'];
-// $company = $item['company'];
-// $comment = $item['comment'];
-// $stars = $item['stars'];
+//$photo = $item['photo'];
+//$name = $item['name'];
+//$company = $item['company'];
+//$comment = $item['comment'];
+//$stars = $item['stars'];
 ?>
 
 <section class="reviews <?php echo $bg_color; ?>">
