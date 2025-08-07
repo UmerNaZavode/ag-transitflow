@@ -8,14 +8,11 @@
 
   &__wrapper {
     padding: 6.2rem 7.2rem;
+    color: var(--color-base-blue);
+    background: #f4f4f4;
 
     @media screen and (max-width: 576px) {
       padding: 3.5rem 4.5rem;
-    }
-
-    &.default {
-      color: var(--color-base-blue);
-      background: #f4f4f4;
     }
 
     &.alt {

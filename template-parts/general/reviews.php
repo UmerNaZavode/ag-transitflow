@@ -1,5 +1,6 @@
 <?php
 $reviews = get_field('reviews');
+$bg_color = $reviews['bg_color'];
 $tag = $reviews['tag'];
 $title = $reviews['title'];
 $items = $reviews['items'];
@@ -10,7 +11,7 @@ $items = $reviews['items'];
 // $stars = $item['stars'];
 ?>
 
-<section class="reviews {{aboutPage}}">
+<section class="reviews <?php echo $bg_color; ?>">
   <div class="reviews__inner container">
     <div class="reviews__tag tag"><?php echo $tag; ?></div>
     <header class="reviews__header">
@@ -29,14 +30,14 @@ $items = $reviews['items'];
     <div class="reviews-card">
       <?php foreach ($items as $item): ?>
         <?php
-        $bg_color = $item['bg_color'];
+        $bg_card_color = $item['bg_card_color'];
         $photo = $item['photo'];
         $name = $item['name'];
         $company = $item['company'];
         $comment = $item['comment'];
         $stars = $item['stars'];
         ?>
-        <div class="reviews-card__wrapper <?php echo $bg_color; ?>">
+        <div class="reviews-card__wrapper <?php echo $bg_card_color; ?>">
           <header class="reviews-card__header">
             <div class="reviews-card__body">
               <img src="<?php echo $photo['url']; ?>" class="reviews-card__author" alt="<?php echo $photo['alt']; ?>" />
