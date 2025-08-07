@@ -11,6 +11,59 @@
     font-weight: 600;
     line-height: 135%;
 
+    &.menu-item-has-children {
+      a {
+        &::after {
+          display: none;
+        }
+      }
+
+      &:hover>.sub-menu {
+        opacity: 1;
+        transform: translateY(0);
+        pointer-events: auto;
+        visibility: visible;
+      }
+
+      .sub-menu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        display: flex;
+        min-width: 10rem;
+        padding: 1rem 0;
+        opacity: 0;
+        transform: translateY(1rem);
+        transition: all 0.3s ease;
+        z-index: 10;
+        background-color: rgb(9, 18, 66, 25%); // можешь заменить
+        flex-direction: column;
+        gap: 0.5rem;
+        pointer-events: none;
+        visibility: hidden;
+
+        li {
+          padding: 0.5rem 2rem;
+          border-left: none;
+          white-space: nowrap;
+
+          a {
+            font-size: 1.4rem;
+            font-weight: 500;
+            color: #fff;
+
+            &::after {
+              display: none; // чтобы убрать underline внутри подменю
+            }
+
+            &:hover {
+              color: #ccc;
+            }
+          }
+        }
+      }
+    }
+
     &.current-menu-item {
       a::after {
         transform: translateY(3rem) scaleX(1);
