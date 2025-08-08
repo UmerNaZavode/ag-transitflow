@@ -1,0 +1,228 @@
+[
+    {
+        "ID": false,
+        "key": "group_pjui5qql9kvbe",
+        "title": "Team",
+        "fields": [
+            {
+                "key": "field_s2wlh2sfttunb",
+                "label": "Team",
+                "name": "",
+                "aria-label": "",
+                "type": "tab",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 100,
+                    "class": "",
+                    "id": ""
+                },
+                "message": "",
+                "ui": 0,
+                "default_value": 0,
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_jalzbiqebxaox",
+                "label": "Team",
+                "name": "team",
+                "aria-label": "",
+                "type": "group",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 100,
+                    "class": "",
+                    "id": ""
+                },
+                "message": "",
+                "ui": 0,
+                "default_value": 0,
+                "layout": "block",
+                "sub_fields": [
+                    {
+                        "key": "field_cqxbsomkqzfdf",
+                        "label": "Tag",
+                        "name": "tag",
+                        "type": "text",
+                        "instructions": "",
+                        "required": true,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": 50,
+                            "class": "",
+                            "id": ""
+                        },
+                        "message": "",
+                        "ui": 0,
+                        "default_value": 0
+                    },
+                    {
+                        "key": "field_kktbcxuilposp",
+                        "label": "Title",
+                        "name": "title",
+                        "type": "text",
+                        "instructions": "",
+                        "required": true,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": 50,
+                            "class": "",
+                            "id": ""
+                        },
+                        "message": "",
+                        "ui": 0,
+                        "default_value": 0
+                    },
+                    {
+                        "key": "field_ratvtziwbzr21",
+                        "label": "Card",
+                        "name": "card",
+                        "type": "repeater",
+                        "instructions": "",
+                        "required": false,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": 100,
+                            "class": "",
+                            "id": ""
+                        },
+                        "message": "",
+                        "ui": 0,
+                        "default_value": 0,
+                        "sub_fields": [
+                            {
+                                "key": "field_l5lb8tebpa6vf",
+                                "label": "Image",
+                                "name": "image",
+                                "type": "image",
+                                "instructions": "",
+                                "required": true,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": 33,
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "message": "",
+                                "ui": 0,
+                                "default_value": 0
+                            },
+                            {
+                                "key": "field_izj3jjsybtdbh",
+                                "label": "Name",
+                                "name": "name",
+                                "type": "text",
+                                "instructions": "",
+                                "required": true,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": 33,
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "message": "",
+                                "ui": 0,
+                                "default_value": 0
+                            },
+                            {
+                                "key": "field_nutxsw0rdq3hl",
+                                "label": "Role",
+                                "name": "role",
+                                "type": "text",
+                                "instructions": "",
+                                "required": true,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": 33,
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "message": "",
+                                "ui": 0,
+                                "default_value": 0
+                            },
+                            {
+                                "key": "field_omvdhln3ajudq",
+                                "label": "Socials",
+                                "name": "socials",
+                                "type": "repeater",
+                                "instructions": "",
+                                "required": false,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": 100,
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "message": "",
+                                "ui": 0,
+                                "default_value": 0,
+                                "sub_fields": [
+                                    {
+                                        "key": "field_tgbosdusnmgro",
+                                        "label": "Icon",
+                                        "name": "icon",
+                                        "type": "text",
+                                        "instructions": "",
+                                        "required": true,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": 50,
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "message": "",
+                                        "ui": 0,
+                                        "default_value": 0
+                                    },
+                                    {
+                                        "key": "field_jbb0try8ifwxf",
+                                        "label": "Url",
+                                        "name": "url",
+                                        "type": "text",
+                                        "instructions": "",
+                                        "required": true,
+                                        "conditional_logic": 0,
+                                        "wrapper": {
+                                            "width": 50,
+                                            "class": "",
+                                            "id": ""
+                                        },
+                                        "message": "",
+                                        "ui": 0,
+                                        "default_value": 0
+                                    }
+                                ],
+                                "layout": "block"
+                            }
+                        ],
+                        "layout": "block"
+                    }
+                ]
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "page",
+                    "operator": "==",
+                    "value": 6
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0,
+        "_valid": true
+    }
+]

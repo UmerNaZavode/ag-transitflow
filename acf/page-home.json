@@ -874,10 +874,11 @@
             {
                 "key": "field_kytief6riolls",
                 "label": "Choose Us",
-                "name": "choose_us",
+                "name": "",
+                "aria-label": "",
                 "type": "tab",
                 "instructions": "",
-                "required": false,
+                "required": 0,
                 "conditional_logic": 0,
                 "wrapper": {
                     "width": 100,
@@ -894,6 +895,7 @@
                 "key": "field_zz8ezvrwtcdos",
                 "label": "Choose Us",
                 "name": "choose_us",
+                "aria-label": "",
                 "type": "group",
                 "instructions": "",
                 "required": false,
@@ -912,6 +914,7 @@
                         "key": "field_vzqya7lcocho4",
                         "label": "Image",
                         "name": "image",
+                        "aria-label": "",
                         "type": "image",
                         "instructions": "",
                         "required": true,
@@ -923,12 +926,23 @@
                         },
                         "message": "",
                         "ui": 0,
-                        "default_value": 0
+                        "default_value": 0,
+                        "return_format": "array",
+                        "preview_size": "medium",
+                        "library": "all",
+                        "min_width": 0,
+                        "min_height": 0,
+                        "min_size": 0,
+                        "max_width": 0,
+                        "max_height": 0,
+                        "max_size": 0,
+                        "mime_types": ""
                     },
                     {
                         "key": "field_bjkl2h8menoif",
                         "label": "Body Decription",
                         "name": "body_decription",
+                        "aria-label": "",
                         "type": "text",
                         "instructions": "",
                         "required": true,
@@ -940,12 +954,17 @@
                         },
                         "message": "",
                         "ui": 0,
-                        "default_value": 0
+                        "default_value": 0,
+                        "maxlength": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": ""
                     },
                     {
                         "key": "field_uxx7frca7g8qx",
                         "label": "Tag",
                         "name": "tag",
+                        "aria-label": "",
                         "type": "text",
                         "instructions": "",
                         "required": true,
@@ -957,12 +976,17 @@
                         },
                         "message": "",
                         "ui": 0,
-                        "default_value": 0
+                        "default_value": 0,
+                        "maxlength": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": ""
                     },
                     {
                         "key": "field_dfccrgr2qlozv",
                         "label": "Title",
                         "name": "title",
+                        "aria-label": "",
                         "type": "text",
                         "instructions": "",
                         "required": true,
@@ -974,12 +998,17 @@
                         },
                         "message": "",
                         "ui": 0,
-                        "default_value": 0
+                        "default_value": 0,
+                        "maxlength": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": ""
                     },
                     {
                         "key": "field_efixwqsuvhezn",
                         "label": "Description",
                         "name": "description",
+                        "aria-label": "",
                         "type": "textarea",
                         "instructions": "",
                         "required": true,
@@ -991,12 +1020,17 @@
                         },
                         "message": "",
                         "ui": 0,
-                        "default_value": 0
+                        "default_value": 0,
+                        "new_lines": "",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "rows": ""
                     },
                     {
                         "key": "field_exhgue3afpqlq",
                         "label": "Items",
                         "name": "items",
+                        "aria-label": "",
                         "type": "repeater",
                         "instructions": "",
                         "required": false,
@@ -1009,11 +1043,18 @@
                         "message": "",
                         "ui": 0,
                         "default_value": 0,
+                        "layout": "block",
+                        "min": 0,
+                        "max": 0,
+                        "rows_per_page": 20,
+                        "button_label": "Add Row",
+                        "collapsed": "",
                         "sub_fields": [
                             {
                                 "key": "field_5yhnojytprwrz",
                                 "label": "Icon",
                                 "name": "icon",
+                                "aria-label": "",
                                 "type": "textarea",
                                 "instructions": "",
                                 "required": "true",
@@ -1025,12 +1066,18 @@
                                 },
                                 "message": "",
                                 "ui": 0,
-                                "default_value": 0
+                                "default_value": 0,
+                                "new_lines": "",
+                                "maxlength": "",
+                                "placeholder": "",
+                                "rows": "",
+                                "parent_repeater": "field_exhgue3afpqlq"
                             },
                             {
                                 "key": "field_44h7gqidnof4x",
                                 "label": "Subtitle",
                                 "name": "subtitle",
+                                "aria-label": "",
                                 "type": "text",
                                 "instructions": "",
                                 "required": true,
@@ -1042,10 +1089,14 @@
                                 },
                                 "message": "",
                                 "ui": 0,
-                                "default_value": 0
+                                "default_value": 0,
+                                "maxlength": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "parent_repeater": "field_exhgue3afpqlq"
                             }
-                        ],
-                        "layout": "block"
+                        ]
                     }
                 ]
             }
