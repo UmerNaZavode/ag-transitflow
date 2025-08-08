@@ -9,6 +9,7 @@ $image = $why_us['image'];
 $image_absolute = $why_us['image_absolute'];
 $numbers = $why_us['numbers'];
 ?>
+
 <section class="why-us">
   <div class="why-us__wrapper">
     <img src="<?php echo $bg_image['url']; ?>" alt="<?php echo $bg_image['alt']; ?>" width="1920" height="504" loading="lazy" class="why-us__img" />

@@ -12,6 +12,7 @@ get_header();
   <?php get_template_part('template-parts/home/why-us'); ?>
   <?php get_template_part('template-parts/home/transporting'); ?>
   <?php get_template_part('template-parts/general/reviews'); ?>
+  <?php get_template_part("template-parts/home/choose-us"); ?>
 </main>
 
 <?php get_footer(); ?>

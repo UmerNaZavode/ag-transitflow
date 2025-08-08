@@ -134,6 +134,33 @@
                         "collapsed": "",
                         "sub_fields": [
                             {
+                                "key": "field_6895d963e0e3b",
+                                "label": "Bg Card Color",
+                                "name": "bg_card_color",
+                                "aria-label": "",
+                                "type": "select",
+                                "instructions": "",
+                                "required": 0,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": "33",
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "choices": {
+                                    "default": "Default",
+                                    "alt": "Alt"
+                                },
+                                "default_value": false,
+                                "return_format": "value",
+                                "multiple": 0,
+                                "allow_null": 0,
+                                "ui": 0,
+                                "ajax": 0,
+                                "placeholder": "",
+                                "parent_repeater": "field_vgb0kd2ugwem8"
+                            },
+                            {
                                 "key": "field_r3jz32rwpm6px",
                                 "label": "Photo",
                                 "name": "photo",
