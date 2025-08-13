@@ -19,7 +19,8 @@
                     "id": ""
                 },
                 "placement": "top",
-                "endpoint": 0
+                "endpoint": 0,
+                "no_preference": 0
             },
             {
                 "key": "field_6595592f12771",
@@ -36,6 +37,11 @@
                     "id": ""
                 },
                 "layout": "block",
+                "acfe_seamless_style": 0,
+                "acfe_group_modal": 0,
+                "acfe_group_modal_close": 0,
+                "acfe_group_modal_button": "",
+                "acfe_group_modal_size": "large",
                 "sub_fields": [
                     {
                         "key": "field_0f9wpevtkpdlmj61",
@@ -178,6 +184,7 @@
                         "collapsed": "",
                         "button_label": "Add Row",
                         "rows_per_page": 20,
+                        "acfe_repeater_stylised_button": 0,
                         "sub_fields": [
                             {
                                 "key": "field_kfmaks9fbko4u",
@@ -198,7 +205,8 @@
                                 "rows": "",
                                 "placeholder": "",
                                 "new_lines": "",
-                                "parent_repeater": "field_ibgrr4yduu5zu"
+                                "parent_repeater": "field_ibgrr4yduu5zu",
+                                "acfe_textarea_code": 0
                             },
                             {
                                 "key": "field_ebqui2m8ectc1",

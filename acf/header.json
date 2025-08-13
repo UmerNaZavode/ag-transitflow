@@ -20,7 +20,8 @@
                 },
                 "message": "",
                 "placement": "top",
-                "endpoint": 0
+                "endpoint": 0,
+                "no_preference": 0
             },
             {
                 "key": "field_lg4nxhha3u6vz",
@@ -38,6 +39,11 @@
                 },
                 "message": "",
                 "layout": "row",
+                "acfe_seamless_style": 0,
+                "acfe_group_modal": 0,
+                "acfe_group_modal_close": 0,
+                "acfe_group_modal_button": "",
+                "acfe_group_modal_size": "large",
                 "sub_fields": [
                     {
                         "key": "field_dzdkkesxdhroo",
@@ -63,7 +69,10 @@
                         "max_width": 0,
                         "max_height": 0,
                         "max_size": 0,
-                        "mime_types": ""
+                        "mime_types": "",
+                        "uploader": "",
+                        "acfe_thumbnail": 0,
+                        "upload_folder": ""
                     },
                     {
                         "key": "field_jexxifucq4o3s",
@@ -86,6 +95,7 @@
                         "layout": "table",
                         "button_label": "Add Row",
                         "collapsed": "",
+                        "acfe_repeater_stylised_button": 0,
                         "sub_fields": [
                             {
                                 "key": "field_flag8tgfvr8jy",
