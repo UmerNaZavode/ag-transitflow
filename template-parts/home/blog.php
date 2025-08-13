@@ -21,7 +21,6 @@ $button_url = $blog['button_url'];
       ?>
       <div class="blog__news">
         <img src="<?php echo $image['url']; ?>" width="453" height="308" class="blog__img" alt="<?php echo $image['alt']; ?>" />
-        <!-- <img src="./../src/img/home-page/blog1.jpg" width="453" height="308" alt="" class="blog__img"> -->
         <div class="blog__calendar">
           <?php get_template_part('template-parts/icons/icon-calendar'); ?>
           <div class="blog__date"><?php echo $date; ?></div>

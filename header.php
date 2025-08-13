@@ -151,7 +151,7 @@
     <!--         </li> -->
     <!--         <li class="header-mobile__socials-item"> -->
     <!--           <a href="https://facebook.com" class="header-mobile__socials-link" target="_blank"> -->
-    <!--             <!-- Facebook SVG icon --> 
+    <!--             <!-- Facebook SVG icon -->
     <!--           </a> -->
     <!--         </li> -->
     <!--         <li class="header-mobile__socials-item"> -->
