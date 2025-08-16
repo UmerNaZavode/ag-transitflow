@@ -26,7 +26,9 @@ $button_url = $blog['button_url'];
           <div class="blog__date"><?php echo $date; ?></div>
         </div>
         <div class="blog__info">
-          <h3 class="blog__subtitle subtitle"><?php echo $item_title; ?></h3>
+          <a class="blog__link" href="#">
+            <h3 class="blog__subtitle subtitle"><?php echo $item_title; ?></h3>
+          </a>
           <p class="blog__desk"><?php echo $description; ?></p>
           <ul class="blog__list">
             <?php foreach ($advantages as $item): ?>
