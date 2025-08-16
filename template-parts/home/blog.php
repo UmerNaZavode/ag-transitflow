@@ -15,6 +15,7 @@ $button_url = $blog['button_url'];
       <?php
       $image = $item['image'];
       $date = $item['date'];
+      $item_url = $item['item_url'];
       $item_title = $item['item_title'];
       $description = $item['description'];
       $advantages = $item['advantages'];
@@ -26,7 +27,7 @@ $button_url = $blog['button_url'];
           <div class="blog__date"><?php echo $date; ?></div>
         </div>
         <div class="blog__info">
-          <a class="blog__link" href="#">
+          <a class="blog__link" href="<?php echo $item_url; ?>">
             <h3 class="blog__subtitle subtitle"><?php echo $item_title; ?></h3>
           </a>
           <p class="blog__desk"><?php echo $description; ?></p>
