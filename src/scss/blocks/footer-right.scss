@@ -52,18 +52,14 @@
     line-height: 250%;
   }
 
-  &__form {
+  .form__group {
     padding-top: 1.4rem;
-  }
-
-  &__control {
     width: 100%;
-    padding: 1.7rem 0 1.7rem 3rem;
+    max-width: 30.3rem;
     font-family: var(--font-family-third);
     font-size: 2rem;
     font-weight: 400;
     background: none;
-    border: 1px solid #4e5683;
 
     &::placeholder {
       color: #fff;
