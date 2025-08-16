@@ -53,7 +53,7 @@
                         "required": true,
                         "conditional_logic": 0,
                         "wrapper": {
-                            "width": 100,
+                            "width": 50,
                             "class": "",
                             "id": ""
                         },
@@ -73,6 +73,23 @@
                         "uploader": "",
                         "acfe_thumbnail": 0,
                         "upload_folder": ""
+                    },
+                    {
+                        "key": "field_t186yuyyxojf2",
+                        "label": "Description",
+                        "name": "description",
+                        "type": "textarea",
+                        "instructions": "",
+                        "required": true,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": 50,
+                            "class": "",
+                            "id": ""
+                        },
+                        "message": "",
+                        "ui": 0,
+                        "default_value": 0
                     },
                     {
                         "key": "field_0f9wpevtkpdlmj61",

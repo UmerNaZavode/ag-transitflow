@@ -15,37 +15,7 @@ $form_title = $footer['form_title'];
 
 <footer class="footer">
   <div class="footer__wrapper">
-    <div class="footer-left">
-      <img src="<?php echo $logo['url']; ?>" class="footer__logo" alt="<?php echo $logo['alt']; ?>" />
-      <div class="footer-left__info">
-        <p class="footer-left__desk">Leverage agile frameworks to provide a robust synopsis for strategy collaborative
-          thinking to further the overall value proposition.</p>
-        <ul class="footer-left__list">
-          <li class="footer-left__item">
-            <div class="footre-left__icon icon">
-              {{> icons/icon-mail }}
-            </div>
-            <div class="footre-left__info">
-              <a href="mailto:contact@logistics.com" class="footre-left__link" target="_blank">
-                Email<br>
-                contact@logistics.com
-              </a>
-            </div>
-          </li>
-          <li class="footer-left__item">
-            <div class="footre-left__icon icon">
-              {{> icons/icon-phone }}
-            </div>
-            <div class="footre-left__info">
-              <a href="tel:+00112365489" class="footre-left__link" target="_blank">
-                Call Us<br>
-                (00) 112 365 489
-              </a>
-            </div>
-          </li>
-        </ul>
-      </div>
-    </div>
+    <?php get_template_part('template-parts/footer/footer-left'); ?>
     <div class="footer-right">
       <div class="footer-right__wrapper">
         <h3 class="footer-right__title title">Pages</h3>
