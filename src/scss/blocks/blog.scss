@@ -31,14 +31,11 @@
 
     @media screen and (max-width: 768px) {
       display: grid;
-      grid-template-columns: min-content 1fr;
-      grid-template-rows: auto auto;
-      grid-template-areas:
-        "calendar info"
-        "img      img";
-      gap: 2rem;
-      padding-block: 2rem 2rem;
       border-top: 1px solid #d6d6d6;
+      gap: 2rem;
+      grid-template:
+        "calendar info" auto "img      img" auto / min-content 1fr;
+      padding-block: 2rem;
     }
   }
 

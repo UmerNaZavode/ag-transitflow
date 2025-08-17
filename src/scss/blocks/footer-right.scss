@@ -53,13 +53,13 @@
   }
 
   .form__group {
-    padding-top: 1.4rem;
     width: 100%;
     max-width: 30.3rem;
     font-family: var(--font-family-third);
     font-size: 2rem;
     font-weight: 400;
     background: none;
+    padding-top: 1.4rem;
 
     &::placeholder {
       color: #fff;

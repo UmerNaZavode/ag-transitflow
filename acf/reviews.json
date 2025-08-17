@@ -122,6 +122,25 @@
                         "append": ""
                     },
                     {
+                        "key": "field_vsuacmds0dspx",
+                        "label": "Body",
+                        "name": "body",
+                        "type": "repeater",
+                        "instructions": "",
+                        "required": false,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": 100,
+                            "class": "",
+                            "id": ""
+                        },
+                        "message": "",
+                        "ui": 0,
+                        "default_value": 0,
+                        "sub_fields": [],
+                        "layout": "block"
+                    },
+                    {
                         "key": "field_vgb0kd2ugwem8",
                         "label": "Items",
                         "name": "items",

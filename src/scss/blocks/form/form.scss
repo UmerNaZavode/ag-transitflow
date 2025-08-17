@@ -175,10 +175,10 @@
   .wpcf7 form.invalid .wpcf7-response-output,
   .wpcf7 form.unaccepted .wpcf7-response-output,
   .wpcf7 form.payment-required .wpcf7-response-output {
-    border: none;
-    color: red;
-    margin: 1rem 0 0 0;
+    margin: 1rem 0 0;
     padding: 0;
+    color: red;
+    border: none;
   }
 
   .wpcf7-not-valid-tip {
