@@ -1,53 +1,62 @@
 .accordion {
-  display: flex;
+  display: grid;
+  padding-top: 5rem;
   width: 68rem;
-  flex-direction: column;
-  gap: 4.4rem;
-  margin-top: 5rem;
 
-  @media screen and (max-width: 576px) {
-    max-width: 50rem;
-  }
-
-  @media screen and (max-width: 430px) {
-    max-width: 35rem;
+  @media screen and (max-width: 768px) {
+    width: 100%;
   }
 
   &__details {
     &[open] {
-      .accordion__summary {
+      .accordion__title {
+
+        &::before,
         &::after {
-          background: var(--color-base-yellow);
+          background-color: gray;
+        }
+
+        &::after {
           rotate: 0deg;
         }
+      }
+
+      &+.accordion__content {
+        grid-template-rows: 1fr;
       }
     }
   }
 
   &__summary {
-    position: relative;
     font-family: var(--font-family-second);
-    font-size: 2rem;
     font-weight: 400;
-    color: var(--color-base-blue);
-    transition-duration: 0.2s;
+    font-size: 20px;
+    color: #1c1f35;
+    list-style: none;
 
-    &::marker {
-      content: '';
+    &::-webkit-details-marker {
+      display: none;
     }
+  }
+
+  &__title {
+    position: relative;
+    padding-right: 5rem;
+    transition-duration: .2s;
 
     &::before,
     &::after {
-      content: '';
       position: absolute;
       top: 50%;
-      right: 0;
-      width: 1rem;
-      height: 0.125rem;
-      border-radius: 1rem;
-      background-color: var(--color-base-blue);
-      transition-duration: 0.2s;
       translate: 0 -50%;
+      content: '';
+      right: 0;
+      width: 1.6rem;
+      height: .2rem;
+      color: black;
+      background-color: black;
+      border-radius: 1rem;
+      transition-duration: 0.2s;
     }
 
     &::after {
@@ -56,12 +65,22 @@
   }
 
   &__content {
-    max-width: 56rem;
-    margin-top: 1.8rem;
+    display: grid;
+    grid-template-rows: 0fr;
+    padding-top: 1.8rem;
     transition-duration: 0.3s;
 
-    @media screen and (max-width: 576px) {
-      max-width: 40rem;
+    &-inner {
+      overflow: hidden;
+    }
+
+    &-body {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 152%;
+      color: #666c89;
+      width: 100%;
+      max-width: 57rem;
     }
   }
 }
