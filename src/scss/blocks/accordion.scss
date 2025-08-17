@@ -9,15 +9,11 @@
 
   &__details {
     &[open] {
+
       .accordion__title {
-
-        &::before,
         &::after {
-          background-color: gray;
-        }
-
-        &::after {
-          rotate: 0deg;
+          transform: rotate(45deg) translateY(-50%); // стрелка вниз
+          border-color: var(--color-base-yellow);
         }
       }
 
@@ -42,25 +38,18 @@
   &__title {
     position: relative;
     padding-right: 5rem;
-    transition-duration: .2s;
 
-    &::before,
     &::after {
+      content: '';
       position: absolute;
       top: 50%;
-      translate: 0 -50%;
-      content: '';
       right: 0;
-      width: 1.6rem;
-      height: .2rem;
-      color: black;
-      background-color: black;
-      border-radius: 1rem;
-      transition-duration: 0.2s;
-    }
-
-    &::after {
-      rotate: 90deg;
+      width: 1.2rem;
+      height: 1.2rem;
+      border-left: 2px solid var(--color-base-blue);
+      border-bottom: 2px solid var(--color-base-blue);
+      transform: rotate(-45deg) translateY(-50%); // стрелка вправо
+      transition: transform 0.3s ease;
     }
   }
 
