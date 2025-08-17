@@ -29,7 +29,9 @@ $card = $team['card'];
             $url = $item['url'];
             ?>
             <li class="team__item">
-              <a class="team__url" href="<?php echo $url; ?>" target="_blank"><?php echo $icon; ?></a>
+              <a class="team__url" href="<?php echo $url; ?>" target="_blank">
+                <img src="<?php echo $icon['url']; ?>" class="team__icon" alt="<?php echo $icon['alt']; ?>" />
+              </a>
             </li>
           <?php endforeach; ?>
         </ul>

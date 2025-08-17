@@ -125,29 +125,27 @@
                                 "aria-label": "",
                                 "type": "image",
                                 "instructions": "",
-                                "required": true,
+                                "required": 1,
                                 "conditional_logic": 0,
                                 "wrapper": {
-                                    "width": 33,
+                                    "width": "33",
                                     "class": "",
                                     "id": ""
                                 },
-                                "message": "",
-                                "ui": 0,
-                                "default_value": 0,
-                                "return_format": "array",
-                                "preview_size": "medium",
-                                "library": "all",
-                                "min_width": 0,
-                                "min_height": 0,
-                                "min_size": 0,
-                                "max_width": 0,
-                                "max_height": 0,
-                                "max_size": 0,
-                                "mime_types": "",
+                                "required_message": "",
                                 "uploader": "",
-                                "acfe_thumbnail": 0,
+                                "return_format": "array",
+                                "library": "all",
                                 "upload_folder": "",
+                                "acfe_thumbnail": 0,
+                                "min_width": "",
+                                "min_height": "",
+                                "min_size": "",
+                                "max_width": "",
+                                "max_height": "",
+                                "max_size": "",
+                                "mime_types": "",
+                                "preview_size": "medium",
                                 "parent_repeater": "field_ratvtziwbzr21"
                             },
                             {
@@ -227,7 +225,7 @@
                                         "label": "Icon",
                                         "name": "icon",
                                         "aria-label": "",
-                                        "type": "textarea",
+                                        "type": "image",
                                         "instructions": "",
                                         "required": 0,
                                         "conditional_logic": 0,
@@ -236,12 +234,19 @@
                                             "class": "",
                                             "id": ""
                                         },
-                                        "default_value": "",
-                                        "acfe_textarea_code": 0,
-                                        "maxlength": "",
-                                        "rows": "",
-                                        "placeholder": "",
-                                        "new_lines": "",
+                                        "uploader": "",
+                                        "return_format": "array",
+                                        "library": "all",
+                                        "upload_folder": "",
+                                        "acfe_thumbnail": 0,
+                                        "min_width": "",
+                                        "min_height": "",
+                                        "min_size": "",
+                                        "max_width": "",
+                                        "max_height": "",
+                                        "max_size": "",
+                                        "mime_types": "",
+                                        "preview_size": "medium",
                                         "parent_repeater": "field_omvdhln3ajudq"
                                     },
                                     {
@@ -249,7 +254,7 @@
                                         "label": "Url",
                                         "name": "url",
                                         "aria-label": "",
-                                        "type": "text",
+                                        "type": "select",
                                         "instructions": "",
                                         "required": 0,
                                         "conditional_logic": 0,
@@ -258,11 +263,25 @@
                                             "class": "",
                                             "id": ""
                                         },
-                                        "default_value": "",
-                                        "maxlength": "",
+                                        "choices": {
+                                            "https:\/\/www.facebook.com\/": "Facebook",
+                                            "https:\/\/x.com\/": "Twitter",
+                                            "https:\/\/www.linkedin.com\/": "LinkedIn",
+                                            "https:\/\/www.instagram.com\/": "Instagram"
+                                        },
+                                        "default_value": false,
+                                        "return_format": "value",
+                                        "multiple": 0,
+                                        "allow_custom": 0,
                                         "placeholder": "",
+                                        "search_placeholder": "",
                                         "prepend": "",
                                         "append": "",
+                                        "max": "",
+                                        "allow_null": 0,
+                                        "ui": 0,
+                                        "ajax": 0,
+                                        "min": "",
                                         "parent_repeater": "field_omvdhln3ajudq"
                                     }
                                 ]
@@ -278,6 +297,13 @@
                     "param": "page",
                     "operator": "==",
                     "value": "6"
+                }
+            ],
+            [
+                {
+                    "param": "page",
+                    "operator": "==",
+                    "value": "2490"
                 }
             ]
         ],

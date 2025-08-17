@@ -2,7 +2,7 @@
 
 // Exit if accessed directly
 if (!defined('ABSPATH'))
-    exit;
+  exit;
 
 $vite_dev = true;
 
@@ -34,8 +34,8 @@ require_once __DIR__ . '/shortcodes/email.php';
 /* require_once __DIR__ . '/inc/ar-taxonomy.php'; */
 /* require_once __DIR__ . '/inc/activate-plugin.php'; */
 
-add_filter( 'acfwpcli_fieldgroup_paths', 'add_plugin_path' );
-function add_plugin_path( $paths ) {
-    $paths['my_plugin'] = get_template_directory() . '/acf/';
-    return $paths;
-  }
+add_filter('acfwpcli_fieldgroup_paths', 'add_plugin_path');
+function add_plugin_path($paths) {
+  $paths['my_plugin'] = get_template_directory() . '/acf/';
+  return $paths;
+}
