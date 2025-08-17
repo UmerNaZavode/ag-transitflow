@@ -1,7 +1,7 @@
 .accordion {
   display: grid;
-  padding-top: 5rem;
   width: 68rem;
+  padding-top: 5rem;
 
   @media screen and (max-width: 768px) {
     width: 100%;
@@ -9,7 +9,6 @@
 
   &__details {
     &[open] {
-
       .accordion__title {
         &::after {
           transform: rotate(45deg) translateY(-50%); // стрелка вниз
@@ -25,8 +24,8 @@
 
   &__summary {
     font-family: var(--font-family-second);
-    font-weight: 400;
     font-size: 20px;
+    font-weight: 400;
     color: #1c1f35;
     list-style: none;
 
@@ -46,10 +45,10 @@
       right: 0;
       width: 1.2rem;
       height: 1.2rem;
-      border-left: 2px solid var(--color-base-blue);
-      border-bottom: 2px solid var(--color-base-blue);
       transform: rotate(-45deg) translateY(-50%); // стрелка вправо
       transition: transform 0.3s ease;
+      border-bottom: 2px solid var(--color-base-blue);
+      border-left: 2px solid var(--color-base-blue);
     }
   }
 
@@ -64,12 +63,12 @@
     }
 
     &-body {
-      font-weight: 500;
-      font-size: 16px;
-      line-height: 152%;
-      color: #666c89;
       width: 100%;
       max-width: 57rem;
+      font-size: 16px;
+      font-weight: 500;
+      color: #666c89;
+      line-height: 152%;
     }
   }
 }

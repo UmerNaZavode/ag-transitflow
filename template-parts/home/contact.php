@@ -62,7 +62,6 @@ $items = $contact['items'];
       ?>
       <div class="contact-footer__content">
         <img src="<?php echo $image['url']; ?>" class="contact-footer__content" alt="<?php echo $image['alt']; ?>" />
-        <!-- <img src="./../src/img/home-page/contact1.jpg" width="300" height="234" alt="" class="contact-footer__content" loading="lazy"> -->
         <div class="contact-footer__logo"><?php echo $logo; ?></div>
       </div>
     <?php endforeach; ?>
