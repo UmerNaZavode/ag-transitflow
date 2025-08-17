@@ -68,7 +68,6 @@
     <div class="header-main">
       <div class="header-main__body container">
         <div class="header-nav">
-
           <?php wp_nav_menu([
             'theme_location'  => 'menu-1',
             'menu'            => '',
@@ -87,7 +86,6 @@
             'depth'           => 0,
             'walker'         => '',
           ]); ?>
-
         </div>
         <div class="header-socials">
           <ul class="header-socials__list">
@@ -107,67 +105,5 @@
         </div>
       </div>
     </div>
-
-    <!-- <div class="header-mobile"> -->
-    <!--   <div class="header-mobile__overlay"></div> -->
-    <!--   <div class="header-mobile__content"> -->
-    <!--     <!-- Кнопка закрытия -->
-    <!--     <button class="header-mobile__close" type="button" aria-label="Close menu"> -->
-    <!--       <span class="header-mobile__close-line"></span> -->
-    <!--       <span class="header-mobile__close-line"></span> -->
-    <!--     </button> -->
-    <!---->
-    <!--     <div class="header-mobile__nav"> -->
-    <!--       <ul class="header-mobile__list"> -->
-    <!--         <li class="header-mobile__item"> -->
-    <!--           <a href="/" class="header-mobile__link">Home</a> -->
-    <!--         </li> -->
-    <!--         <li class="header-mobile__item"> -->
-    <!--           <a href="/about.html" class="header-mobile__link">About</a> -->
-    <!--         </li> -->
-    <!--         <li class="header-mobile__item header-mobile__item--dropdown"> -->
-    <!--           <button class="header-mobile__button header-mobile__button--dropdown">Pages</button> -->
-    <!--           <ul class="header-mobile__dropdown"> -->
-    <!--             <li><a href="/services.html">Services</a></li> -->
-    <!--             <li><a href="/faq.html">FAQ</a></li> -->
-    <!--             <li><a href="/pricing.html">Pricing</a></li> -->
-    <!--             <li><a href="/testimonials.html">Testimonials</a></li> -->
-    <!--           </ul> -->
-    <!--         </li> -->
-    <!--         <li class="header-mobile__item"> -->
-    <!--           <a href="/project.html" class="header-mobile__link">Project</a> -->
-    <!--         </li> -->
-    <!--         <li class="header-mobile__item"> -->
-    <!--           <a href="/contact" class="header-mobile__link">Contact</a> -->
-    <!--         </li> -->
-    <!--       </ul> -->
-    <!--     </div> -->
-    <!--     <div class="header-mobile__socials"> -->
-    <!--       <ul class="header-mobile__socials-list"> -->
-    <!--         <li class="header-mobile__socials-item"> -->
-    <!--           <a href="https://instagram.com" class="header-mobile__socials-link" target="_blank"> -->
-    <!--             <!-- Instagram SVG icon -->
-    <!--           </a> -->
-    <!--         </li> -->
-    <!--         <li class="header-mobile__socials-item"> -->
-    <!--           <a href="https://facebook.com" class="header-mobile__socials-link" target="_blank"> -->
-    <!--             <!-- Facebook SVG icon -->
-    <!--           </a> -->
-    <!--         </li> -->
-    <!--         <li class="header-mobile__socials-item"> -->
-    <!--           <a href="https://x.com" class="header-mobile__socials-link" target="_blank"> -->
-    <!--             <!-- X (Twitter) SVG icon -->
-    <!--           </a> -->
-    <!--         </li> -->
-    <!--         <li class="header-mobile__socials-item"> -->
-    <!--           <a href="https://linkedin.com" class="header-mobile__socials-link" target="_blank"> -->
-    <!--             <!-- LinkedIn SVG icon -->
-    <!--           </a> -->
-    <!--         </li> -->
-    <!--       </ul> -->
-    <!--       <button class="header-mobile__btn" type="button"><a href="/">Request Quote</a></button> -->
-    <!--     </div> -->
-    <!--   </div> -->
-    <!-- </div> -->
   </header>
   <main>
