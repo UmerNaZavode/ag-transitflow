@@ -7,10 +7,11 @@
             {
                 "key": "field_cuixmnav4ica3",
                 "label": "Stats",
-                "name": "stats",
+                "name": "",
+                "aria-label": "",
                 "type": "tab",
                 "instructions": "",
-                "required": false,
+                "required": 0,
                 "conditional_logic": 0,
                 "wrapper": {
                     "width": 100,
@@ -21,12 +22,14 @@
                 "ui": 0,
                 "default_value": 0,
                 "placement": "top",
-                "endpoint": 0
+                "endpoint": 0,
+                "no_preference": 0
             },
             {
                 "key": "field_4i23iwxaichdz",
                 "label": "Stats",
                 "name": "stats",
+                "aria-label": "",
                 "type": "group",
                 "instructions": "",
                 "required": false,
@@ -40,11 +43,17 @@
                 "ui": 0,
                 "default_value": 0,
                 "layout": "block",
+                "acfe_seamless_style": 0,
+                "acfe_group_modal": 0,
+                "acfe_group_modal_close": 0,
+                "acfe_group_modal_button": "",
+                "acfe_group_modal_size": "large",
                 "sub_fields": [
                     {
                         "key": "field_2nnrdmsvnvll0",
                         "label": "Items",
                         "name": "items",
+                        "aria-label": "",
                         "type": "repeater",
                         "instructions": "",
                         "required": false,
@@ -57,11 +66,19 @@
                         "message": "",
                         "ui": 0,
                         "default_value": 0,
+                        "layout": "block",
+                        "min": 0,
+                        "max": 0,
+                        "rows_per_page": 20,
+                        "button_label": "Add Row",
+                        "collapsed": "",
+                        "acfe_repeater_stylised_button": 0,
                         "sub_fields": [
                             {
                                 "key": "field_byatk4kfq8oty",
                                 "label": "Key",
                                 "name": "key",
+                                "aria-label": "",
                                 "type": "text",
                                 "instructions": "",
                                 "required": true,
@@ -73,12 +90,18 @@
                                 },
                                 "message": "",
                                 "ui": 0,
-                                "default_value": 0
+                                "default_value": 0,
+                                "maxlength": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "parent_repeater": "field_2nnrdmsvnvll0"
                             },
                             {
                                 "key": "field_dm252wizihe3l",
                                 "label": "Label",
                                 "name": "label",
+                                "aria-label": "",
                                 "type": "text",
                                 "instructions": "",
                                 "required": true,
@@ -90,10 +113,14 @@
                                 },
                                 "message": "",
                                 "ui": 0,
-                                "default_value": 0
+                                "default_value": 0,
+                                "maxlength": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "parent_repeater": "field_2nnrdmsvnvll0"
                             }
-                        ],
-                        "layout": "block"
+                        ]
                     }
                 ]
             }

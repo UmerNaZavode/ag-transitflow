@@ -54,7 +54,7 @@ function true_remove_default_sizes($sizes)
 }
 function remove_pages_editor()
 {
-  $ids = [8,6,2490,5416];
+  $ids = [8,6,2490,5416,6436];
   if (in_array(get_the_ID(), $ids)) {
     remove_post_type_support('page', 'editor');
   } // end if
