@@ -43,6 +43,11 @@
                 "ui": 0,
                 "default_value": 0,
                 "layout": "block",
+                "acfe_seamless_style": 0,
+                "acfe_group_modal": 0,
+                "acfe_group_modal_close": 0,
+                "acfe_group_modal_button": "",
+                "acfe_group_modal_size": "large",
                 "sub_fields": [
                     {
                         "key": "field_68a24f5af38e3",
@@ -121,12 +126,7 @@
                             }
                         ]
                     }
-                ],
-                "acfe_seamless_style": 0,
-                "acfe_group_modal": 0,
-                "acfe_group_modal_close": 0,
-                "acfe_group_modal_button": "",
-                "acfe_group_modal_size": "large"
+                ]
             }
         ],
         "location": [
