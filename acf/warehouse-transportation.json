@@ -425,6 +425,116 @@
                         "default_value": 0
                     }
                 ]
+            },
+            {
+                "key": "field_yqlnpplymrto6",
+                "label": "Related Projects",
+                "name": "related_projects",
+                "type": "tab",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 100,
+                    "class": "",
+                    "id": ""
+                },
+                "message": "",
+                "ui": 0,
+                "default_value": 0,
+                "placement": "top",
+                "endpoint": 0
+            },
+            {
+                "key": "field_lvf4dlss26izc",
+                "label": "Related Projects",
+                "name": "related_projects",
+                "type": "group",
+                "instructions": "",
+                "required": false,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": 100,
+                    "class": "",
+                    "id": ""
+                },
+                "message": "",
+                "ui": 0,
+                "default_value": 0,
+                "layout": "block",
+                "sub_fields": [
+                    {
+                        "key": "field_m9o3u19p6q42s",
+                        "label": "Title",
+                        "name": "title",
+                        "type": "text",
+                        "instructions": "",
+                        "required": true,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": 100,
+                            "class": "",
+                            "id": ""
+                        },
+                        "message": "",
+                        "ui": 0,
+                        "default_value": 0
+                    },
+                    {
+                        "key": "field_uf6m7uavc2ilg",
+                        "label": "Items",
+                        "name": "items",
+                        "type": "repeater",
+                        "instructions": "",
+                        "required": false,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": 100,
+                            "class": "",
+                            "id": ""
+                        },
+                        "message": "",
+                        "ui": 0,
+                        "default_value": 0,
+                        "sub_fields": [
+                            {
+                                "key": "field_dythhsitdnyko",
+                                "label": "Image",
+                                "name": "image",
+                                "type": "image",
+                                "instructions": "",
+                                "required": true,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": 50,
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "message": "",
+                                "ui": 0,
+                                "default_value": 0
+                            },
+                            {
+                                "key": "field_gjzuhvoefdfrr",
+                                "label": "Url",
+                                "name": "url",
+                                "type": "text",
+                                "instructions": "",
+                                "required": true,
+                                "conditional_logic": 0,
+                                "wrapper": {
+                                    "width": 50,
+                                    "class": "",
+                                    "id": ""
+                                },
+                                "message": "",
+                                "ui": 0,
+                                "default_value": 0
+                            }
+                        ],
+                        "layout": "block"
+                    }
+                ]
             }
         ],
         "location": [
