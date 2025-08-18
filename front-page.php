@@ -12,6 +12,7 @@ get_header();
 <?php get_template_part('template-parts/home/transporting'); ?>
 <?php get_template_part('template-parts/globals/reviews'); ?>
 <?php get_template_part("template-parts/home/choose-us"); ?>
+<?php get_template_part("template-parts/home/blog", null, ["per_page" => 2]); ?>
 <?php get_template_part("template-parts/globals/team"); ?>
 <?php get_template_part("template-parts/home/contact"); ?>
 <?php get_template_part("template-parts/home/blog"); ?>

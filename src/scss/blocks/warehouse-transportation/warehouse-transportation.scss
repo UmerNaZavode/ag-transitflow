@@ -1,0 +1,40 @@
+.warehouse-transportation {
+  padding-top: 10rem;
+
+  &__description {
+    font-family: var(--font-family-bas);
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 152%;
+    padding-top: 1.2rem;
+    color: #666c89;
+  }
+
+  &__list {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    font-family: var(--font-family-second);
+    font-size: 2rem;
+    font-weight: 400;
+    padding-top: 3rem;
+    color: var(--color-heading);
+  }
+
+  &__item {
+    display: flex;
+    align-items: center;
+  }
+
+  &__arrow {
+    display: flex;
+    align-items: center;
+  }
+
+  &__option {
+    position: relative;
+    font-weight: 400;
+    font-size: 2rem;
+    padding-left: 2.6rem;
+  }
+}
