@@ -46,11 +46,11 @@ $phone_number = $footer['phone_number'];
       <div class="faq__tag tag tag--alt"><?php echo $card_tag; ?></div>
       <h3 class="faq__subtitle subtitle"><?php echo $card_title; ?></h3>
       <div class="faq__contact">
-        <div class="faq-contacts__icon icon">
+        <div class="faq__icon icon">
           <?php get_template_part('template-parts/icons/icon-phone'); ?>
         </div>
-        <div class="faq-contacts__info">
-          <a href="tel:<?php echo clear_phone($phone_number); ?>" class="faq-contacts__link" target="_blank">
+        <div class="faq__info">
+          <a href="tel:<?php echo clear_phone($phone_number); ?>" class="faq__link" target="_blank">
             Call Us<br>
             <?php echo $phone_number; ?>
           </a>
