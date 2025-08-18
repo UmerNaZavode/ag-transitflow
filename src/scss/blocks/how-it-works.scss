@@ -4,9 +4,20 @@
   align-items: center;
   padding-block: 10rem;
 
+  @media screen and (max-width: 992px) {
+    flex-direction: column-reverse;
+    gap: 2rem;
+    padding-block: 7rem;
+  }
+
+  @media screen and (max-width: 576px) {
+    padding-block: 4rem;
+  }
+
   &__right {
     display: flex;
-    width: 49rem;
+    width: 100%;
+    max-width: 49rem;
     flex-direction: column;
   }
 

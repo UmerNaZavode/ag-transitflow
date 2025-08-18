@@ -41,7 +41,6 @@ $phone_number = $footer['phone_number'];
   </div>
   <div class="faq__right">
     <img src="<?php echo $image['url']; ?>" class="faq__img" alt="<?php echo $image['alt']; ?>" />
-    <!-- <img src="./../src/img/about-page/faq.jpg" width="682" height="539" alt="" class="faq__img"> -->
     <div class="faq__wrapper">
       <div class="faq__tag tag tag--alt"><?php echo $card_tag; ?></div>
       <h3 class="faq__subtitle subtitle"><?php echo $card_title; ?></h3>
