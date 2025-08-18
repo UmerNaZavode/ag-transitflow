@@ -7,10 +7,11 @@
             {
                 "key": "field_t7aeppueepupp",
                 "label": "Our Goodness",
-                "name": "our_goodness",
+                "name": "",
+                "aria-label": "",
                 "type": "tab",
                 "instructions": "",
-                "required": false,
+                "required": 0,
                 "conditional_logic": 0,
                 "wrapper": {
                     "width": 100,
@@ -21,12 +22,14 @@
                 "ui": 0,
                 "default_value": 0,
                 "placement": "top",
-                "endpoint": 0
+                "endpoint": 0,
+                "no_preference": 0
             },
             {
                 "key": "field_t8guynaxua9ii",
                 "label": "Our Goodness",
                 "name": "our_goodness",
+                "aria-label": "",
                 "type": "group",
                 "instructions": "",
                 "required": false,
@@ -40,11 +43,17 @@
                 "ui": 0,
                 "default_value": 0,
                 "layout": "block",
+                "acfe_seamless_style": 0,
+                "acfe_group_modal": 0,
+                "acfe_group_modal_close": 0,
+                "acfe_group_modal_button": "",
+                "acfe_group_modal_size": "large",
                 "sub_fields": [
                     {
                         "key": "field_hjdhkiax2eu5s",
                         "label": "Tag",
                         "name": "tag",
+                        "aria-label": "",
                         "type": "text",
                         "instructions": "",
                         "required": true,
@@ -56,12 +65,17 @@
                         },
                         "message": "",
                         "ui": 0,
-                        "default_value": 0
+                        "default_value": 0,
+                        "maxlength": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": ""
                     },
                     {
                         "key": "field_uclmv1paftwty",
                         "label": "Title",
                         "name": "title",
+                        "aria-label": "",
                         "type": "text",
                         "instructions": "",
                         "required": true,
@@ -73,12 +87,17 @@
                         },
                         "message": "",
                         "ui": 0,
-                        "default_value": 0
+                        "default_value": 0,
+                        "maxlength": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": ""
                     },
                     {
                         "key": "field_frzhe4m71cjwj",
                         "label": "Image",
                         "name": "image",
+                        "aria-label": "",
                         "type": "image",
                         "instructions": "",
                         "required": true,
@@ -90,12 +109,26 @@
                         },
                         "message": "",
                         "ui": 0,
-                        "default_value": 0
+                        "default_value": 0,
+                        "return_format": "array",
+                        "preview_size": "medium",
+                        "library": "all",
+                        "min_width": 0,
+                        "min_height": 0,
+                        "min_size": 0,
+                        "max_width": 0,
+                        "max_height": 0,
+                        "max_size": 0,
+                        "mime_types": "",
+                        "uploader": "",
+                        "acfe_thumbnail": 0,
+                        "upload_folder": ""
                     },
                     {
                         "key": "field_i4uiikjk49eex",
                         "label": "Image Absolute",
                         "name": "image_absolute",
+                        "aria-label": "",
                         "type": "image",
                         "instructions": "",
                         "required": true,
@@ -107,12 +140,26 @@
                         },
                         "message": "",
                         "ui": 0,
-                        "default_value": 0
+                        "default_value": 0,
+                        "return_format": "array",
+                        "preview_size": "medium",
+                        "library": "all",
+                        "min_width": 0,
+                        "min_height": 0,
+                        "min_size": 0,
+                        "max_width": 0,
+                        "max_height": 0,
+                        "max_size": 0,
+                        "mime_types": "",
+                        "uploader": "",
+                        "acfe_thumbnail": 0,
+                        "upload_folder": ""
                     },
                     {
                         "key": "field_idgwgiavbsbtw",
                         "label": "Items",
                         "name": "items",
+                        "aria-label": "",
                         "type": "repeater",
                         "instructions": "",
                         "required": false,
@@ -125,11 +172,19 @@
                         "message": "",
                         "ui": 0,
                         "default_value": 0,
+                        "layout": "block",
+                        "min": 0,
+                        "max": 0,
+                        "rows_per_page": 20,
+                        "button_label": "Add Row",
+                        "collapsed": "",
+                        "acfe_repeater_stylised_button": 0,
                         "sub_fields": [
                             {
                                 "key": "field_jmfqjhxclnax7",
                                 "label": "Icon",
                                 "name": "icon",
+                                "aria-label": "",
                                 "type": "textarea",
                                 "instructions": "",
                                 "required": true,
@@ -141,12 +196,19 @@
                                 },
                                 "message": "",
                                 "ui": 0,
-                                "default_value": 0
+                                "default_value": 0,
+                                "new_lines": "",
+                                "maxlength": "",
+                                "placeholder": "",
+                                "rows": "",
+                                "acfe_textarea_code": 0,
+                                "parent_repeater": "field_idgwgiavbsbtw"
                             },
                             {
                                 "key": "field_0fcvyxfyptaiv",
                                 "label": "Subtitle",
                                 "name": "subtitle",
+                                "aria-label": "",
                                 "type": "text",
                                 "instructions": "",
                                 "required": true,
@@ -158,12 +220,18 @@
                                 },
                                 "message": "",
                                 "ui": 0,
-                                "default_value": 0
+                                "default_value": 0,
+                                "maxlength": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "parent_repeater": "field_idgwgiavbsbtw"
                             },
                             {
                                 "key": "field_xaheybzbmimn8",
                                 "label": "Description",
                                 "name": "description",
+                                "aria-label": "",
                                 "type": "textarea",
                                 "instructions": "",
                                 "required": true,
@@ -175,10 +243,15 @@
                                 },
                                 "message": "",
                                 "ui": 0,
-                                "default_value": 0
+                                "default_value": 0,
+                                "new_lines": "",
+                                "maxlength": "",
+                                "placeholder": "",
+                                "rows": "",
+                                "acfe_textarea_code": 0,
+                                "parent_repeater": "field_idgwgiavbsbtw"
                             }
-                        ],
-                        "layout": "block"
+                        ]
                     }
                 ]
             }
