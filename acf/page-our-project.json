@@ -1,17 +1,16 @@
 [
     {
         "ID": false,
-        "key": "group_foptvgk2vvagb",
-        "title": "Stats",
+        "key": "group_c4vzuzzbaphba",
+        "title": "Page Our Project",
         "fields": [
             {
-                "key": "field_cuixmnav4ica3",
-                "label": "Stats",
-                "name": "",
-                "aria-label": "",
+                "key": "field_dtngcypobvi5f",
+                "label": "Items",
+                "name": "items",
                 "type": "tab",
                 "instructions": "",
-                "required": 0,
+                "required": false,
                 "conditional_logic": 0,
                 "wrapper": {
                     "width": 100,
@@ -22,14 +21,12 @@
                 "ui": 0,
                 "default_value": 0,
                 "placement": "top",
-                "endpoint": 0,
-                "no_preference": 0
+                "endpoint": 0
             },
             {
-                "key": "field_4i23iwxaichdz",
-                "label": "Stats",
-                "name": "stats",
-                "aria-label": "",
+                "key": "field_czwtuptjydc2n",
+                "label": "Items",
+                "name": "items",
                 "type": "group",
                 "instructions": "",
                 "required": false,
@@ -43,17 +40,11 @@
                 "ui": 0,
                 "default_value": 0,
                 "layout": "block",
-                "acfe_seamless_style": 0,
-                "acfe_group_modal": 0,
-                "acfe_group_modal_close": 0,
-                "acfe_group_modal_button": "",
-                "acfe_group_modal_size": "large",
                 "sub_fields": [
                     {
-                        "key": "field_2nnrdmsvnvll0",
-                        "label": "Items",
-                        "name": "items",
-                        "aria-label": "",
+                        "key": "field_zn700lbyyx5cr",
+                        "label": "Projects",
+                        "name": "projects",
                         "type": "repeater",
                         "instructions": "",
                         "required": false,
@@ -66,20 +57,12 @@
                         "message": "",
                         "ui": 0,
                         "default_value": 0,
-                        "layout": "block",
-                        "min": 0,
-                        "max": 0,
-                        "rows_per_page": 20,
-                        "button_label": "Add Row",
-                        "collapsed": "",
-                        "acfe_repeater_stylised_button": 0,
                         "sub_fields": [
                             {
-                                "key": "field_byatk4kfq8oty",
-                                "label": "Key",
-                                "name": "key",
-                                "aria-label": "",
-                                "type": "text",
+                                "key": "field_cyusyzwqslxhm",
+                                "label": "Image",
+                                "name": "image",
+                                "type": "image",
                                 "instructions": "",
                                 "required": true,
                                 "conditional_logic": 0,
@@ -90,18 +73,12 @@
                                 },
                                 "message": "",
                                 "ui": 0,
-                                "default_value": 0,
-                                "maxlength": "",
-                                "placeholder": "",
-                                "prepend": "",
-                                "append": "",
-                                "parent_repeater": "field_2nnrdmsvnvll0"
+                                "default_value": 0
                             },
                             {
-                                "key": "field_dm252wizihe3l",
-                                "label": "Label",
-                                "name": "label",
-                                "aria-label": "",
+                                "key": "field_4kmjwsc9eh6uw",
+                                "label": "Url",
+                                "name": "url",
                                 "type": "text",
                                 "instructions": "",
                                 "required": true,
@@ -113,14 +90,10 @@
                                 },
                                 "message": "",
                                 "ui": 0,
-                                "default_value": 0,
-                                "maxlength": "",
-                                "placeholder": "",
-                                "prepend": "",
-                                "append": "",
-                                "parent_repeater": "field_2nnrdmsvnvll0"
+                                "default_value": 0
                             }
-                        ]
+                        ],
+                        "layout": "block"
                     }
                 ]
             }
@@ -130,14 +103,7 @@
                 {
                     "param": "page",
                     "operator": "==",
-                    "value": "5416"
-                }
-            ],
-            [
-                {
-                    "param": "page",
-                    "operator": "==",
-                    "value": "7972"
+                    "value": 7972
                 }
             ]
         ],
@@ -150,11 +116,6 @@
         "active": true,
         "description": "",
         "show_in_rest": 0,
-        "acfe_autosync": "",
-        "acfe_form": 0,
-        "acfe_display_title": "",
-        "acfe_meta": "",
-        "acfe_note": "",
         "_valid": true
     }
 ]
