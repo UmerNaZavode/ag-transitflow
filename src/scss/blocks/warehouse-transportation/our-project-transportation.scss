@@ -1,0 +1,26 @@
+.our-project-transportation {
+  padding-top: 10rem;
+
+  @media screen and (max-width: 992px) {
+    padding-top: 7rem;
+  }
+
+  @media screen and (max-width: 576px) {
+    padding-top: 4rem;
+  }
+
+  &__description {
+    font-family: var(--font-family-base);
+    font-weight: 500;
+    font-size: 1.6rem;
+    line-height: 152%;
+    padding-block: 1.2rem 3rem;
+    color: #666c89;
+  }
+
+  &__video {
+    width: 100%;
+    height: auto;
+    max-width: 120rem;
+  }
+}

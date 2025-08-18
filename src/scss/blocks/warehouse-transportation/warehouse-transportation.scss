@@ -1,6 +1,14 @@
 .warehouse-transportation {
   padding-top: 10rem;
 
+  @media screen and (max-width: 992px) {
+    padding-top: 7rem;
+  }
+
+  @media screen and (max-width: 576px) {
+    padding-top: 4rem;
+  }
+
   &__description {
     font-family: var(--font-family-bas);
     font-weight: 500;
