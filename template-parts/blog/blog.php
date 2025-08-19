@@ -3,7 +3,7 @@ $blog = get_field('blog');
 $tag = $blog['tag'];
 $title = $blog['title'];
 $button_text = $blog['button_text'];
-$button_url = $blog['button_url'];
+$button_url = get_permalink(10750);
 $per_page = $args["per_page"] ?? 5;
 
 $posts = new WP_Query([
@@ -11,7 +11,7 @@ $posts = new WP_Query([
   "posts_per_page" => $per_page,
   "post_status" => "publish",
   "orderby" => "date",
-  "order" => "DESC"
+  "order" => "ASC"
 ]);
 ?>
 
@@ -30,9 +30,14 @@ $posts = new WP_Query([
       ?>
 
       <div class="blog__news">
-        <img src="<?php echo $image['url']; ?>"
-          width="453" height="308" class="blog__img"
-          alt="<?php echo $image['alt'] ?: get_the_title(); ?>" />
+        <div class="blog__left">
+          <img src="<?php echo $image['url']; ?>"
+            width="453" height="308" class="blog__img"
+            alt="<?php echo $image['alt'] ?: get_the_title(); ?>" />
+          <a class="blog__img-link" href="<?php echo $permalink; ?>">
+            Read More
+          </a>
+        </div>
 
         <div class="blog__calendar">
           <?php get_template_part('template-parts/icons/icon-calendar'); ?>
@@ -57,6 +62,6 @@ $posts = new WP_Query([
   </div>
 
   <?php if (is_front_page()): ?>
-    <a class="blog__button button button--blue" href="<?php echo $button_url; ?>" target="_blank"><?php echo $button_text; ?></a>
+    <a class="blog__button button button--blue" href="<?php echo $button_url; ?>"><?php echo $button_text; ?></a>
   <?php endif; ?>
 </section>
