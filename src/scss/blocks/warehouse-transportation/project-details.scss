@@ -12,22 +12,22 @@
     }
 
     @media screen and (max-width: 992px) {
-      padding-block: 7rem;
       gap: 5rem;
+      padding-block: 7rem;
     }
 
     @media screen and (max-width: 576px) {
-      padding-block: 4rem;
       gap: 3rem;
+      padding-block: 4rem;
     }
   }
 
   &__title {
     font-family: var(--font-family-second);
-    font-weight: 600;
     font-size: 3.5rem;
-    padding-bottom: 4rem;
+    font-weight: 600;
     color: var(--color-base-blue);
+    padding-bottom: 4rem;
 
     @media screen and (max-width: 576px) {
       padding-bottom: 2rem;
@@ -41,26 +41,23 @@
   }
 
   &__list {
+    display: flex;
     font-family: var(--font-family-second);
     color: var(--color-base-blue);
-  }
-
-  &__list {
-    display: flex;
   }
 
   &__label {
     display: flex;
     justify-content: space-between;
-    font-weight: 500;
-    font-size: 2rem;
     width: 11.2rem;
+    font-size: 2rem;
+    font-weight: 500;
   }
 
   &__key {
-    font-weight: 400;
     font-size: 2rem;
-    padding-left: 3rem;
+    font-weight: 400;
     overflow-wrap: break-word;
+    padding-left: 3rem;
   }
 }

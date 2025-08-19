@@ -11,16 +11,16 @@
 
   &__description {
     font-family: var(--font-family-base);
-    font-weight: 500;
     font-size: 1.6rem;
+    font-weight: 500;
+    color: #666c89;
     line-height: 152%;
     padding-block: 1.2rem 3rem;
-    color: #666c89;
   }
 
   &__video {
     width: 100%;
-    height: auto;
     max-width: 120rem;
+    height: auto;
   }
 }
