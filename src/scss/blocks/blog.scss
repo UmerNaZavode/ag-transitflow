@@ -62,19 +62,19 @@
       position: absolute;
       top: 50%;
       left: 50%;
-      transform: translate(-50%, -50%);
       display: flex;
       justify-content: center;
       align-items: center;
       width: 85%;
       height: 85%;
-      font-weight: 600;
       font-size: 16px;
-      line-height: 135%;
+      font-weight: 600;
       color: #fff;
       background: rgb(28, 31, 53, 91%);
       opacity: 0;
+      transform: translate(-50%, -50%);
       transition: all 0.3s ease;
+      line-height: 135%;
       text-decoration: none;
       visibility: hidden;
     }
@@ -95,14 +95,14 @@
 
   &__date {
     display: flex;
-    flex-direction: column;
-    gap: 0.8rem;
     font-size: 1.6rem;
     font-weight: 500;
-    text-align: center;
+    color: #666c89;
+    flex-direction: column;
+    gap: 0.8rem;
     line-height: 152%;
     margin-top: 0.8rem;
-    color: #666c89;
+    text-align: center;
   }
 
   &__day {
@@ -129,10 +129,10 @@
   &__content {
     a {
       font-family: var(--font-family-second);
-      font-weight: 400;
       font-size: 25px;
-      transition: all 0.3s ease;
+      font-weight: 400;
       color: var(--color-base-blue);
+      transition: all 0.3s ease;
 
       &:hover {
         color: var(--color-base-yellow);
