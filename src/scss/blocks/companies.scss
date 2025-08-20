@@ -2,6 +2,10 @@
   position: relative;
   padding-block: 8rem;
 
+  @media screen and (max-width: 576px) {
+  padding-block: 4rem;
+  }
+
   &__wrapper {
     display: flex;
     justify-content: center;

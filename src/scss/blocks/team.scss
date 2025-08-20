@@ -8,15 +8,16 @@
     align-items: center;
     flex-direction: column;
     padding-block: 9.5rem 10rem;
+
+    @media screen and (max-width: 992px) {
+      padding-block: 8rem 9rem;
+    }
+
+    @media screen and (max-width: 576px) {
+      padding-block: 4rem 5rem;
+    }
   }
 
-  @media screen and (max-width: 992px) {
-    padding-block: 8rem 9rem;
-  }
-
-  @media screen and (max-width: 576px) {
-    padding-block: 4rem 5rem;
-  }
 
   &__title {
     margin-top: 1.5rem;
