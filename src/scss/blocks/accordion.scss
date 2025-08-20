@@ -11,7 +11,7 @@
     &[open] {
       .accordion__title {
         &::after {
-          transform: rotate(45deg) translateY(-50%); // стрелка вниз
+          transform: rotate(-45deg);
           border-color: var(--color-base-yellow);
         }
       }
@@ -37,15 +37,18 @@
   &__title {
     position: relative;
     padding-right: 5rem;
+    display: flex;
+    align-items: center;
 
     &::after {
       content: '';
       position: absolute;
-      top: 50%;
-      right: 0;
+      top: calc(50% - 10px);
+      right: 2rem;
       width: 1.2rem;
       height: 1.2rem;
-      transform: rotate(-45deg) translateY(-50%); // стрелка вправо
+      transform: rotate(-135deg) translateY(-50%);
+      transform-origin: 50% 50%;
       transition: transform 0.3s ease;
       border-bottom: 2px solid var(--color-base-blue);
       border-left: 2px solid var(--color-base-blue);
