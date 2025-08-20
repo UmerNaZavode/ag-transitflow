@@ -36,9 +36,9 @@
 
   &__title {
     position: relative;
-    padding-right: 5rem;
     display: flex;
     align-items: center;
+    padding-right: 5rem;
 
     &::after {
       content: '';
@@ -48,10 +48,10 @@
       width: 1.2rem;
       height: 1.2rem;
       transform: rotate(-135deg) translateY(-50%);
-      transform-origin: 50% 50%;
       transition: transform 0.3s ease;
       border-bottom: 2px solid var(--color-base-blue);
       border-left: 2px solid var(--color-base-blue);
+      transform-origin: 50% 50%;
     }
   }
 

@@ -1,16 +1,5 @@
 <?php
 $footer = get_field('footer', 'options');
-$logo = $footer['logo'];
-$phone_number = $footer['phone_number'];
-$whatsapp = $footer['whatsapp'];
-$email = $footer['email'];
-$full_address = $footer['full_address'];
-$google_url = $footer['google_url'];
-$hours = $footer['hours'];
-$socials = $footer['socials'];
-//$icon = $item['icon'];
-//$url = $item['url'];
-$form_title = $footer['form_title'];
 ?>
 
 <footer class="footer">
@@ -25,12 +14,32 @@ $form_title = $footer['form_title'];
   <div class="footer-copy">
     <div class="footer-copy__container">
       <div class="footer-copy__info">Copyright © TransitFlow | Designed by VictorFlow - Powered by Webflow.</div>
-      <ul class="footer-copy__list">
-        <li class="footer-copy__item">Style Guide</li>
-        <li class="footer-copy__item">Licenses</li>
-        <li class="footer-copy__item">Changelog</li>
-        <li class="footer-copy__item">Password</li>
-      </ul>
+      <?php wp_nav_menu([
+        'theme_location'  => 'menu-4',
+        'menu'            => '',
+        'container'       => '',
+        'container_class' => '',
+        'container_id'    => '',
+        'menu_class'      => 'footer-copy__list',
+        'menu_id'         => 'js-main-menu',
+        'echo'            => true,
+        'fallback_cb'     => 'wp_page_menu',
+        'before'          => '',
+        'after'           => '',
+        'link_before'     => '',
+        'link_after'      => '',
+        'items_wrap'      => '<ul id="%1$s" class="%2$s">%3$s</ul>',
+        'depth'           => 0,
+        'walker'         => '',
+      ]); ?>
+
+      <!-- <ul class="footer-copy__list"> -->
+      <!-- <li class="footer-copy__item">Style Guide</li> -->
+      <!-- <li class="footer-copy__item">Licenses</li> -->
+      <!-- <li class="footer-copy__item">Changelog</li> -->
+      <!-- <li class="footer-copy__item">Password</li> -->
+      <!-- </ul> -->
+
     </div>
   </div>
 </footer>

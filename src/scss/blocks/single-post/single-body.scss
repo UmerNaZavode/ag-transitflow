@@ -4,10 +4,10 @@
   padding-block: 10rem;
 
   @media screen and (max-width: 992px) {
-    flex-direction: column;
     align-items: center;
-    padding-block: 7rem;
+    flex-direction: column;
     gap: 4rem;
+    padding-block: 7rem;
   }
 
   @media screen and (max-width: 576px) {
@@ -16,9 +16,9 @@
 
   &__left {
     display: flex;
-    flex-direction: column;
     width: 100%;
     max-width: 66.4rem;
+    flex-direction: column;
 
     h2 {
       font-family: var(--font-family-second);
@@ -67,13 +67,12 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    border-block: solid 1px #d6d6d6;
     margin-top: 3rem;
     padding-block: 2rem;
-    border-block: solid 1px #d6d6d6;
   }
 
   &__socials {
-
     ul {
       display: flex;
       align-items: center;
@@ -102,10 +101,10 @@
   }
 
   &__category {
-    font-weight: 500;
     font-size: 1.6rem;
-    line-height: 152%;
+    font-weight: 500;
     color: var(--color-paragraph);
+    line-height: 152%;
   }
 
   &__default {
@@ -114,13 +113,13 @@
     background: #f5f5f5;
 
     @media screen and (max-width: 992px) {
-      padding: 2rem 2rem;
+      padding: 2rem;
     }
 
     h5 {
       font-family: var(--font-family-second);
-      font-weight: 600;
       font-size: 2.2rem;
+      font-weight: 600;
       color: var(--color-heading);
     }
   }
@@ -131,7 +130,7 @@
     background: var(--color-base-blue);
 
     @media screen and (max-width: 992px) {
-      padding: 2rem 2rem;
+      padding: 2rem;
     }
   }
 
@@ -152,46 +151,46 @@
       display: flex;
       justify-content: space-between;
       font-family: var(--font-family-second);
-      font-weight: 400;
       font-size: 1.8rem;
-      padding-bottom: 1.5rem;
+      font-weight: 400;
       color: var(--color-paragraph);
       border-bottom: 1px solid #d6d6d6;
+      padding-bottom: 1.5rem;
 
       span {
         font-family: var(--font-family-second);
-        font-weight: 500;
         font-size: 1.6rem;
-        text-transform: uppercase;
+        font-weight: 500;
         color: var(--color-heading);
+        text-transform: uppercase;
       }
     }
   }
 
   &__description {
     font-family: var(--font-family-second);
-    font-weight: 400;
     font-size: 1.6rem;
+    font-weight: 400;
+    color: var(--color-paragraph);
     line-height: 130%;
     margin-top: 1.2rem;
-    color: var(--color-paragraph);
   }
 
   &__button {
+    padding: 1.9rem 3.6rem;
     font-size: 1.6rem;
     font-weight: 600;
-    line-height: 135%;
-    padding: 1.9rem 3.6rem;
-    margin-top: 3rem;
     color: #23212a;
     background: linear-gradient(127deg, #ffb629 0%, #ffda56 50.72%, #ffd7a6 100%);
     border: none;
+    line-height: 135%;
+    margin-top: 3rem;
   }
 
   &__tag {
     font-family: var(--font-family-second);
-    font-weight: 600;
     font-size: 2.2rem;
+    font-weight: 600;
     color: #fff;
     background: transparent;
   }
@@ -208,15 +207,15 @@
 
   &__info {
     font-family: var(--font-family-second);
-    font-weight: 400;
     font-size: 1.8rem;
+    font-weight: 400;
+    color: #fff;
     line-height: 125%;
     margin-top: 2.4rem;
-    color: #fff;
 
     &:nth-child(2) {
-      padding-bottom: 2.4rem;
       border-bottom: 1px solid #1d2342;
+      padding-bottom: 2.4rem;
     }
   }
 }

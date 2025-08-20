@@ -1,7 +1,7 @@
 .contact-us {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   margin: 10rem auto 0;
   padding-inline: 1.5rem;
 
@@ -15,12 +15,12 @@
 
   &__inner {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
     align-items: center;
     max-width: 95.4rem;
-    justify-content: center;
     padding: 10.1rem 9.8rem;
     background: var(--color-base-blue);
+    flex-direction: column;
 
     @media screen and (max-width: 768px) {
       padding: 7rem 6.8rem;
@@ -33,15 +33,15 @@
 
   &__header {
     display: flex;
-    flex-direction: column;
     align-items: center;
+    flex-direction: column;
   }
 
   &__title,
   &__desk {
     color: #fff;
-    text-align: center;
     margin-top: 1rem;
+    text-align: center;
   }
 
   &__info {
@@ -55,21 +55,21 @@
     padding-inline: 3.85rem;
 
     @media screen and (max-width: 768px) {
-      padding-inline: 0rem;
+      padding-inline: 0;
     }
 
     @media screen and (max-width: 576px) {
-      flex-wrap: wrap;
       justify-content: center;
+      flex-wrap: wrap;
       row-gap: 2rem;
     }
   }
 
   &__item {
     display: flex;
-    flex-direction: column;
     align-items: center;
     width: 100%;
+    flex-direction: column;
 
     @media screen and (max-width: 576px) {
       width: 50%;
@@ -83,16 +83,16 @@
   }
 
   &__contact {
-    font-weight: 500;
     font-size: 1.4rem;
-    line-height: 135%;
-    text-align: center;
-    padding-top: 1.1rem;
+    font-weight: 500;
     color: #fff;
+    line-height: 135%;
+    padding-top: 1.1rem;
+    text-align: center;
   }
 
   .form-alt__footer {
-    align-items: center;
     justify-content: center;
+    align-items: center;
   }
 }

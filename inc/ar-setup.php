@@ -44,6 +44,7 @@ if (!function_exists('ar_starter_setup')) :
         'menu-1' => esc_html__('Primary', 'ag-transitflow'),
         'menu-2' => esc_html__('Footer Center Left', 'ag-transitflow'),
         'menu-3' => esc_html__('Footer Center Right', 'ag-transitflow'),
+        'menu-4' => esc_html__('Footer CopyRight', 'ag-transitflow'),
       )
     );
 
