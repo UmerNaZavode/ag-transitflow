@@ -176,6 +176,13 @@
                     "operator": "==",
                     "value": "10750"
                 }
+            ],
+            [
+                {
+                    "param": "page",
+                    "operator": "==",
+                    "value": "12143"
+                }
             ]
         ],
         "menu_order": 0,

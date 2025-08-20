@@ -7,7 +7,7 @@ $image = $faq['image'];
 $card_tag = $faq['card_tag'];
 $card_title = $faq['card_title'];
 $button_text = $faq['button_text'];
-$button_url = $faq['button_url'];
+$button_url = get_the_permalink(12143);
 $footer = get_field('footer', 'option');
 $phone_number = $footer['phone_number'];
 ?>

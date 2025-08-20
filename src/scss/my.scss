@@ -45,6 +45,7 @@
 @use "blocks/how-it-works";
 @use "blocks/video-player";
 @use "blocks/form/form";
+@use "blocks/form/form-alt";
 @use "blocks/our-project/projects";
 @use "blocks/warehouse-transportation/project-details";
 @use "blocks/warehouse-transportation/warehouse-transportation";
@@ -53,3 +54,4 @@
 @use "blocks/single-post/single-intro";
 @use "blocks/single-post/single-body";
 @use "blocks/our-team/team-about";
+@use "blocks/contact-us/contact-us";

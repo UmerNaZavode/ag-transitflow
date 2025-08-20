@@ -296,10 +296,10 @@
                                             "id": ""
                                         },
                                         "choices": {
-                                            "https://www.facebook.com/": "Facebook",
-                                            "https://x.com/": "Twitter",
-                                            "https://www.linkedin.com/": "LinkedIn",
-                                            "https://www.instagram.com/": "Instagram"
+                                            "https:\/\/www.facebook.com\/": "Facebook",
+                                            "https:\/\/x.com\/": "Twitter",
+                                            "https:\/\/www.linkedin.com\/": "LinkedIn",
+                                            "https:\/\/www.instagram.com\/": "Instagram"
                                         },
                                         "default_value": false,
                                         "return_format": "value",
@@ -325,10 +325,11 @@
             {
                 "key": "field_ctqgngntj0tfs",
                 "label": "Team About",
-                "name": "team_about",
+                "name": "",
+                "aria-label": "",
                 "type": "tab",
                 "instructions": "",
-                "required": false,
+                "required": 0,
                 "conditional_logic": 0,
                 "wrapper": {
                     "width": 100,
@@ -339,12 +340,14 @@
                 "ui": 0,
                 "default_value": 0,
                 "placement": "top",
-                "endpoint": 0
+                "endpoint": 0,
+                "no_preference": 0
             },
             {
                 "key": "field_wxkht9max81rq",
                 "label": "Team About",
                 "name": "team_about",
+                "aria-label": "",
                 "type": "group",
                 "instructions": "",
                 "required": false,
@@ -358,11 +361,17 @@
                 "ui": 0,
                 "default_value": 0,
                 "layout": "block",
+                "acfe_seamless_style": 0,
+                "acfe_group_modal": 0,
+                "acfe_group_modal_close": 0,
+                "acfe_group_modal_button": "",
+                "acfe_group_modal_size": "large",
                 "sub_fields": [
                     {
                         "key": "field_mvlioo7a0kmtf",
                         "label": "Image",
                         "name": "image",
+                        "aria-label": "",
                         "type": "image",
                         "instructions": "",
                         "required": true,
@@ -374,12 +383,26 @@
                         },
                         "message": "",
                         "ui": 0,
-                        "default_value": 0
+                        "default_value": 0,
+                        "return_format": "array",
+                        "preview_size": "medium",
+                        "library": "all",
+                        "min_width": 0,
+                        "min_height": 0,
+                        "min_size": 0,
+                        "max_width": 0,
+                        "max_height": 0,
+                        "max_size": 0,
+                        "mime_types": "",
+                        "uploader": "",
+                        "acfe_thumbnail": 0,
+                        "upload_folder": ""
                     },
                     {
                         "key": "field_qtaqtbkx4gihy",
                         "label": "Image Absolute",
                         "name": "image_absolute",
+                        "aria-label": "",
                         "type": "image",
                         "instructions": "",
                         "required": true,
@@ -391,12 +414,26 @@
                         },
                         "message": "",
                         "ui": 0,
-                        "default_value": 0
+                        "default_value": 0,
+                        "return_format": "array",
+                        "preview_size": "medium",
+                        "library": "all",
+                        "min_width": 0,
+                        "min_height": 0,
+                        "min_size": 0,
+                        "max_width": 0,
+                        "max_height": 0,
+                        "max_size": 0,
+                        "mime_types": "",
+                        "uploader": "",
+                        "acfe_thumbnail": 0,
+                        "upload_folder": ""
                     },
                     {
                         "key": "field_khygcsmh0pzbj",
                         "label": "Tag",
                         "name": "tag",
+                        "aria-label": "",
                         "type": "text",
                         "instructions": "",
                         "required": true,
@@ -408,12 +445,17 @@
                         },
                         "message": "",
                         "ui": 0,
-                        "default_value": 0
+                        "default_value": 0,
+                        "maxlength": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": ""
                     },
                     {
                         "key": "field_gvetwiff5pxhq",
                         "label": "Title",
                         "name": "title",
+                        "aria-label": "",
                         "type": "text",
                         "instructions": "",
                         "required": true,
@@ -425,12 +467,17 @@
                         },
                         "message": "",
                         "ui": 0,
-                        "default_value": 0
+                        "default_value": 0,
+                        "maxlength": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": ""
                     },
                     {
                         "key": "field_otsrfwwhqugap",
                         "label": "Description",
                         "name": "description",
+                        "aria-label": "",
                         "type": "textarea",
                         "instructions": "",
                         "required": true,
@@ -442,12 +489,18 @@
                         },
                         "message": "",
                         "ui": 0,
-                        "default_value": 0
+                        "default_value": 0,
+                        "new_lines": "",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "rows": "",
+                        "acfe_textarea_code": 0
                     },
                     {
                         "key": "field_x3aahqis38jrt",
                         "label": "Items",
                         "name": "items",
+                        "aria-label": "",
                         "type": "repeater",
                         "instructions": "",
                         "required": false,
@@ -460,11 +513,19 @@
                         "message": "",
                         "ui": 0,
                         "default_value": 0,
+                        "layout": "block",
+                        "min": 0,
+                        "max": 0,
+                        "rows_per_page": 20,
+                        "button_label": "Add Row",
+                        "collapsed": "",
+                        "acfe_repeater_stylised_button": 0,
                         "sub_fields": [
                             {
                                 "key": "field_jfpptrvg7ng4k",
                                 "label": "Icon",
                                 "name": "icon",
+                                "aria-label": "",
                                 "type": "textarea",
                                 "instructions": "",
                                 "required": true,
@@ -476,12 +537,19 @@
                                 },
                                 "message": "",
                                 "ui": 0,
-                                "default_value": 0
+                                "default_value": 0,
+                                "new_lines": "",
+                                "maxlength": "",
+                                "placeholder": "",
+                                "rows": "",
+                                "acfe_textarea_code": 0,
+                                "parent_repeater": "field_x3aahqis38jrt"
                             },
                             {
                                 "key": "field_mgb2buxerulfg",
                                 "label": "Subtitle",
                                 "name": "subtitle",
+                                "aria-label": "",
                                 "type": "text",
                                 "instructions": "",
                                 "required": true,
@@ -493,12 +561,18 @@
                                 },
                                 "message": "",
                                 "ui": 0,
-                                "default_value": 0
+                                "default_value": 0,
+                                "maxlength": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "parent_repeater": "field_x3aahqis38jrt"
                             },
                             {
                                 "key": "field_lcncs2yaohahy",
                                 "label": "Info",
                                 "name": "info",
+                                "aria-label": "",
                                 "type": "textarea",
                                 "instructions": "",
                                 "required": true,
@@ -510,10 +584,15 @@
                                 },
                                 "message": "",
                                 "ui": 0,
-                                "default_value": 0
+                                "default_value": 0,
+                                "new_lines": "",
+                                "maxlength": "",
+                                "placeholder": "",
+                                "rows": "",
+                                "acfe_textarea_code": 0,
+                                "parent_repeater": "field_x3aahqis38jrt"
                             }
-                        ],
-                        "layout": "block"
+                        ]
                     }
                 ]
             }

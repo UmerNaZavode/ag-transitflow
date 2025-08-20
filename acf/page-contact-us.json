@@ -1,0 +1,27 @@
+[
+    {
+        "ID": false,
+        "key": "group_hmudvh743spwt",
+        "title": "Page Contact Us",
+        "fields": [],
+        "location": [
+            [
+                {
+                    "param": "page",
+                    "operator": "==",
+                    "value": 12143
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0,
+        "_valid": true
+    }
+]
