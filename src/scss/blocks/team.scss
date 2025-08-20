@@ -1,8 +1,14 @@
 .team {
-  display: flex;
-  align-items: center;
-  flex-direction: column;
-  padding-block: 9.5rem 10rem;
+  &.alt {
+    background: #f4f4f4;
+  }
+
+  &__wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-block: 9.5rem 10rem;
+  }
 
   @media screen and (max-width: 992px) {
     padding-block: 8rem 9rem;
@@ -18,20 +24,13 @@
 
   &__members {
     display: flex;
-    // display: grid;
-    // grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     align-items: center;
     gap: 5.4rem;
     margin-top: 4rem;
     flex-wrap: wrap;
 
-    @media screen and (max-width: 992px) {
-      // grid-template-columns: repeat(2, 1fr);
-    }
-
     @media screen and (max-width: 576px) {
-      grid-template-columns: 1fr;
       gap: 3rem;
       margin-top: 2.5rem;
     }
