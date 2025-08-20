@@ -18,26 +18,40 @@
 
   &__members {
     display: flex;
+    // display: grid;
+    // grid-template-columns: repeat(3, 1fr);
     justify-content: center;
     align-items: center;
     gap: 5.4rem;
     margin-top: 4rem;
+    flex-wrap: wrap;
 
     @media screen and (max-width: 992px) {
-      flex-wrap: wrap;
+      // grid-template-columns: repeat(2, 1fr);
     }
 
     @media screen and (max-width: 576px) {
+      grid-template-columns: 1fr;
       gap: 3rem;
       margin-top: 2.5rem;
     }
   }
 
   &__card {
+    flex: 0 0 calc(33.333% - 5.4rem);
     position: relative;
     display: inline-flex;
     z-index: 1;
     flex-direction: column;
+
+    @media screen and (max-width: 992px) {
+      flex: 0 0 calc(50% - 5.4rem);
+    }
+
+    @media screen and (max-width: 768px) {
+      flex: 0 0 100%;
+      max-width: 34.4rem;
+    }
   }
 
   &__info {
@@ -83,7 +97,7 @@
   // &__item {
   //   @media screen and (max-width: 992px) {
   //     svg {
-  //       width: 18px;
+  //       width: 1.8rem;
   //       height: auto;
   //     }
   //   }
