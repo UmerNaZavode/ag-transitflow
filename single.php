@@ -47,6 +47,7 @@ $contact_email = $single_info['contact_email'];
       <?php
       $category = get_the_category();
       ?>
+
       <div class="single-body container">
         <div class="single-body__left">
           <?php the_content(); ?>
@@ -103,6 +104,7 @@ $contact_email = $single_info['contact_email'];
           </div>
         </div>
       </div>
+
   <?php endwhile;
   endif; ?>
 </section>
