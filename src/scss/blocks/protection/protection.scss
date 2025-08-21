@@ -1,12 +1,11 @@
 .protection {
-
   &__wrapper {
     display: flex;
+    padding: 12.5rem 35.1rem;
+    background: var(--color-base-blue);
     flex-direction: column;
     gap: 4.2rem;
     margin-block: 10rem;
-    padding: 12.5rem 35.1rem;
-    background: var(--color-base-blue);
 
     @media screen and (max-width: 992px) {
       padding: 7rem 1.5rem;
@@ -14,24 +13,24 @@
     }
 
     @media screen and (max-width: 576px) {
-      margin-block: 4rem;
       gap: 3rem;
+      margin-block: 4rem;
     }
   }
 
   &__title {
     font-family: var(--font-family-second);
-    font-weight: 700;
     font-size: 3.5rem;
+    font-weight: 700;
+    color: #fff;
     line-height: 116%;
     text-align: center;
-    color: #fff;
   }
 
   &__form {
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
 
     form {
       display: flex;
@@ -49,8 +48,8 @@
     }
 
     .contact__button {
-      align-self: center;
       padding: 1.9rem 5rem;
+      align-self: center;
       margin-right: 0;
     }
   }
