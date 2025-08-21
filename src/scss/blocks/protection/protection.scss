@@ -1,3 +1,57 @@
 .protection {
-  clear: both;
+
+  &__wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 4.2rem;
+    margin-block: 10rem;
+    padding: 12.5rem 35.1rem;
+    background: var(--color-base-blue);
+
+    @media screen and (max-width: 992px) {
+      padding: 7rem 1.5rem;
+      margin-block: 7rem;
+    }
+
+    @media screen and (max-width: 576px) {
+      margin-block: 4rem;
+      gap: 3rem;
+    }
+  }
+
+  &__title {
+    font-family: var(--font-family-second);
+    font-weight: 700;
+    font-size: 3.5rem;
+    line-height: 116%;
+    text-align: center;
+    color: #fff;
+  }
+
+  &__form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    form {
+      display: flex;
+      gap: 2.5rem;
+
+      @media screen and (max-width: 1000px) {
+        flex-direction: column;
+      }
+
+      .form__group {
+        @media screen and (max-width: 992px) {
+          max-width: 317px;
+        }
+      }
+    }
+
+    .contact__button {
+      align-self: center;
+      padding: 1.9rem 5rem;
+      margin-right: 0;
+    }
+  }
 }
