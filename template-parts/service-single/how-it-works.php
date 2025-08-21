@@ -9,7 +9,7 @@ $description = $how_it_works['description'];
 <section class="how-it-works container">
   <div class="how-it-works__left">
     <div class="video-player" data-js-video-player>
-      <video src="<?php echo $video['url']; ?>" class="video-player__video" poster="<?php echo $poster['url']; ?>" width="645" height="367" data-js-video-player-video></video>
+      <video src="<?php echo $video['url']; ?>" class="video-player__video how-it-works__video" poster="<?php echo $poster['url']; ?>" width="645" height="367" data-js-video-player-video></video>
       <div class="video-player__panel is-active" data-js-video-player-panel>
         <button class="video-player__play-button" type="button" title="Play video" data-js-video-player-play-button>
           <?php get_template_part('template-parts/icons/icon-play-button'); ?>

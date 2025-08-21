@@ -1,5 +1,5 @@
 import "../vue/vue-app.js";
-import { mainMenu } from "./modules/menu";
+import { mainMenu } from "./modules/menu.js";
 import aboutUsTabs from './modules/aboutUsTabs';
 import headerBurger from './modules/headerBurger';
 import headerNav from './modules/headerNav';

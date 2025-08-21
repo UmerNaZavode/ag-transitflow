@@ -2,6 +2,7 @@
   position: relative;
 
   &__video {
+    display: block;
     width: 100%;
     max-width: 64.5rem;
     height: auto;
@@ -12,14 +13,30 @@
     position: absolute;
     top: 0;
     left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background: rgb(0, 0, 0, 50%);
+    opacity: 1;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+    visibility: visible;
 
-    // width: 100%;
-    // height: 100%;
-    object-fit: cover;
+    &.is-active {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    &:not(.is-active) {
+      opacity: 0;
+      visibility: hidden;
+    }
   }
 
   &__play-button {
     background: none;
     border: none;
+    cursor: pointer;
   }
 }

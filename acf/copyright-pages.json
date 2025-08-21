@@ -7,10 +7,11 @@
             {
                 "key": "field_heue11e9vhue6",
                 "label": "Change Log",
-                "name": "change_log",
+                "name": "",
+                "aria-label": "",
                 "type": "tab",
                 "instructions": "",
-                "required": false,
+                "required": 0,
                 "conditional_logic": 0,
                 "wrapper": {
                     "width": 100,
@@ -21,12 +22,14 @@
                 "ui": 0,
                 "default_value": 0,
                 "placement": "top",
-                "endpoint": 0
+                "endpoint": 0,
+                "no_preference": 0
             },
             {
                 "key": "field_gz5qtxyiiyfjk",
                 "label": "Change Log",
                 "name": "change_log",
+                "aria-label": "",
                 "type": "group",
                 "instructions": "",
                 "required": false,
@@ -45,6 +48,7 @@
                         "key": "field_acs77p92pbnad",
                         "label": "Version",
                         "name": "version",
+                        "aria-label": "",
                         "type": "text",
                         "instructions": "",
                         "required": false,
@@ -56,12 +60,17 @@
                         },
                         "message": "",
                         "ui": 0,
-                        "default_value": 0
+                        "default_value": 0,
+                        "maxlength": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": ""
                     },
                     {
                         "key": "field_qxyxabn5va9ug",
                         "label": "Info",
                         "name": "info",
+                        "aria-label": "",
                         "type": "text",
                         "instructions": "",
                         "required": 0,
@@ -73,17 +82,27 @@
                         },
                         "message": "",
                         "ui": 0,
-                        "default_value": 0
+                        "default_value": 0,
+                        "maxlength": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": ""
                     }
-                ]
+                ],
+                "acfe_seamless_style": 0,
+                "acfe_group_modal": 0,
+                "acfe_group_modal_close": 0,
+                "acfe_group_modal_button": "",
+                "acfe_group_modal_size": "large"
             },
             {
                 "key": "field_ybudpaph0s0xb",
                 "label": "Licenses",
-                "name": "licenses",
+                "name": "",
+                "aria-label": "",
                 "type": "tab",
                 "instructions": "",
-                "required": false,
+                "required": 0,
                 "conditional_logic": 0,
                 "wrapper": {
                     "width": 100,
@@ -94,12 +113,14 @@
                 "ui": 0,
                 "default_value": 0,
                 "placement": "top",
-                "endpoint": 0
+                "endpoint": 0,
+                "no_preference": 0
             },
             {
                 "key": "field_3hhfbam0uggvy",
                 "label": "Licenses",
                 "name": "licenses",
+                "aria-label": "",
                 "type": "group",
                 "instructions": "",
                 "required": false,
@@ -118,6 +139,7 @@
                         "key": "field_qb7bpg8eofhdq",
                         "label": "Items",
                         "name": "items",
+                        "aria-label": "",
                         "type": "repeater",
                         "instructions": "",
                         "required": false,
@@ -130,11 +152,19 @@
                         "message": "",
                         "ui": 0,
                         "default_value": 0,
+                        "layout": "block",
+                        "min": 0,
+                        "max": 0,
+                        "rows_per_page": 20,
+                        "button_label": "Add Row",
+                        "collapsed": "",
+                        "acfe_repeater_stylised_button": 0,
                         "sub_fields": [
                             {
                                 "key": "field_fa5szlm2tbzpp",
                                 "label": "Title",
                                 "name": "title",
+                                "aria-label": "",
                                 "type": "text",
                                 "instructions": "",
                                 "required": 0,
@@ -146,12 +176,18 @@
                                 },
                                 "message": "",
                                 "ui": 0,
-                                "default_value": 0
+                                "default_value": 0,
+                                "maxlength": "",
+                                "placeholder": "",
+                                "prepend": "",
+                                "append": "",
+                                "parent_repeater": "field_qb7bpg8eofhdq"
                             },
                             {
                                 "key": "field_cmj4beu6rsprw",
                                 "label": "Info",
                                 "name": "info",
+                                "aria-label": "",
                                 "type": "wysiwyg",
                                 "instructions": "",
                                 "required": false,
@@ -163,12 +199,36 @@
                                 },
                                 "message": "",
                                 "ui": 0,
-                                "default_value": 0
+                                "default_value": 0,
+                                "tabs": "all",
+                                "toolbar": "full",
+                                "media_upload": 1,
+                                "delay": 0,
+                                "acfe_wysiwyg_auto_init": 0,
+                                "acfe_wysiwyg_height": 300,
+                                "acfe_wysiwyg_min_height": 300,
+                                "acfe_wysiwyg_max_height": "",
+                                "acfe_wysiwyg_valid_elements": "",
+                                "acfe_wysiwyg_custom_style": "",
+                                "acfe_wysiwyg_disable_wp_style": 0,
+                                "acfe_wysiwyg_autoresize": 0,
+                                "acfe_wysiwyg_disable_resize": 0,
+                                "acfe_wysiwyg_remove_path": 0,
+                                "acfe_wysiwyg_menubar": 0,
+                                "acfe_wysiwyg_transparent": 0,
+                                "acfe_wysiwyg_merge_toolbar": 0,
+                                "acfe_wysiwyg_custom_toolbar": 0,
+                                "acfe_wysiwyg_toolbar_buttons": [],
+                                "parent_repeater": "field_qb7bpg8eofhdq"
                             }
-                        ],
-                        "layout": "block"
+                        ]
                     }
-                ]
+                ],
+                "acfe_seamless_style": 0,
+                "acfe_group_modal": 0,
+                "acfe_group_modal_close": 0,
+                "acfe_group_modal_button": "",
+                "acfe_group_modal_size": "large"
             }
         ],
         "location": [
@@ -176,7 +236,14 @@
                 {
                     "param": "page",
                     "operator": "==",
-                    "value": 12448
+                    "value": "12448"
+                }
+            ],
+            [
+                {
+                    "param": "page",
+                    "operator": "==",
+                    "value": "12449"
                 }
             ]
         ],
@@ -189,6 +256,11 @@
         "active": true,
         "description": "",
         "show_in_rest": 0,
+        "acfe_autosync": "",
+        "acfe_form": 0,
+        "acfe_display_title": "",
+        "acfe_meta": "",
+        "acfe_note": "",
         "_valid": true
     }
 ]
